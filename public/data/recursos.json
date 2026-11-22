@@ -1,0 +1,66 @@
+{
+  "gerado_em": "2026-11-22T17:54:37",
+  "recursos": [
+    {
+      "recurso_id": "ATA-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Administrativo",
+      "titulo": "Da reunião à lista de ações",
+      "versao": "2",
+      "data_versao": "2026-11-22",
+      "pagina": "materiais/ata-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Skill Meeting Synthesis - Amplitude.pdf",
+          "paginas": 5,
+          "bytes": 250394,
+          "sha256": "3fe9335b788886d51b37f37e578b5d0aa9db85135bca363a7a15b65c48b28bd4",
+          "gerado_em": "2026-11-22T17:44:19"
+        },
+        {
+          "tipo": "csv",
+          "caminho": "arquivos/ATA-001-modelo.csv",
+          "colunas": 6,
+          "bytes": 64,
+          "sha256": "9391c14a22a01914cbc4de11fc37131410591a0588b2a80a93052c948fa45dce",
+          "origem": "funil-organico/ATA-001-modelo.csv"
+        }
+      ],
+      "fonte_editorial": "funil-organico/ATA-001-conteudo-v2.md",
+      "versao_anterior": {
+        "versao": "1",
+        "data_versao": "2026-11-22",
+        "preservada_em": "salas/Escritorio-Dev/entregas/historico-ata001-v1/ (HASHES-v1.sha256)",
+        "pdf_sha256": "f668ced4e95d11d91657bdf4f0ea5280d3d11939ac864b47c49967e4b2ce54f2",
+        "pdf_paginas": 4,
+        "fonte_editorial": "funil-organico/ATA-001-conteudo.md"
+      },
+      "skill_citada": {
+        "nome": "meeting-synthesis",
+        "mantenedor": "Amplitude",
+        "repositorio": "https://github.com/amplitude/builder-skills",
+        "url_skill": "https://github.com/amplitude/builder-skills/blob/51838c2d85560466d1bbc174ea0e645bb9c44ea9/execution-skills/skills/meeting-synthesis/SKILL.md",
+        "commit": "51838c2d85560466d1bbc174ea0e645bb9c44ea9",
+        "url_skill_ramo_main": "https://github.com/amplitude/builder-skills/blob/main/execution-skills/skills/meeting-synthesis/SKILL.md",
+        "readme": "https://github.com/amplitude/builder-skills/blob/main/README.md",
+        "licenca": "nao declarada: apenas link, sem copiar o SKILL.md",
+        "ficha": "funil-organico/curadoria/ATA-001/ficha.json",
+        "status_teste": "testado_com_limites (instrucoes em agente isolado; nao e instalacao, transcricao nem conector)"
+      },
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "checkout": "https://pay.cakto.com.br/iz9n4ir_1349217",
+        "fonte": "_quadro/rotinas/PRODUCAO-DIARIA-MEIA-NOITE.md, seção Lançamento do Kit (Ruben, 20/11/2026)",
+        "checkout_aberto_nesta_rodada": false
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": null,
+      "dm_testado": false,
+      "whatsapp_canal": null
+    }
+  ]
+}

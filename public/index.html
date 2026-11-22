@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Materiais gratuitos de IA para o escritório · Agentes que Trabalham</title>
+<meta name="description" content="Biblioteca gratuita de Agentes que Trabalham: cada material resolve uma tarefa do escritório com guia em PDF, pedido pronto para copiar e modelo editável. Sem cadastro.">
+<meta name="theme-color" content="#050706">
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<link rel="preload" href="assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="assin" href="./" aria-label="Agentes que Trabalham, início">
+      <img src="assets/img/logo-robozinho.png" width="40" height="40" alt="">
+      <span>agentesquetrabalham</span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="#biblioteca" aria-current="page">Biblioteca</a>
+      <a class="nav-sec" href="#proximos-passos">Kit 10</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" aria-labelledby="titulo-pagina">
+    <img class="hero__img" src="assets/img/obj-cubos-fluxo.webp" width="960" height="1200" alt="" fetchpriority="high">
+    <div class="wrap">
+      <p class="rotulo"><span class="ponto" aria-hidden="true"></span>Biblioteca gratuita · sem cadastro</p>
+      <h1 class="titulo" id="titulo-pagina">
+        <span class="ln">Materiais para</span>
+        <span class="ln">pôr a IA no</span>
+        <span class="ln s">trabalho.</span>
+      </h1>
+      <p class="apoio">Cada material resolve uma tarefa do escritório: um guia em PDF, um pedido pronto para copiar e um modelo editável. Você usa no chat de IA que já tem e confere antes de enviar.</p>
+      <div class="hero__acoes">
+        <a class="btn btn--sinal" href="#biblioteca">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg></span>
+          Ver os materiais
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="biblioteca" aria-labelledby="titulo-biblioteca">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Biblioteca</p>
+        <h2 class="h2" id="titulo-biblioteca">Escolha a tarefa. <span class="s">Baixe e use.</span></h2>
+        <p>Todos os materiais são gratuitos e completos. Nenhum exige compra, cadastro ou instalação.</p>
+      </div>
+
+      <div class="busca" role="search">
+        <div class="campo">
+          <label for="busca">Buscar material</label>
+          <input id="busca" type="search" placeholder="Ex.: reunião, ata, tarefas" autocomplete="off" aria-describedby="contagem">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        </div>
+        <fieldset class="filtros" id="filtros" hidden>
+          <legend>Filtrar por função</legend>
+        </fieldset>
+      </div>
+
+      <p class="contagem" id="contagem" role="status" aria-live="polite">1 material</p>
+
+      <ul class="grade" id="lista-materiais">
+        <li data-recurso="ATA-001" data-funcao="Administrativo" data-etiquetas="reunião ata anotações tarefas decisões responsáveis prazos planilha">
+          <article class="card">
+            <img class="card__img" src="assets/img/obj-lupa-revisao.webp" width="960" height="1200" alt="" loading="lazy">
+            <div class="card__corpo">
+              <p class="rotulo">ATA-001 · Administrativo</p>
+              <h3 class="h3"><a href="materiais/ata-001/">Da reunião à lista de ações</a></h3>
+              <p>Transforme anotações soltas em decisões, tarefas, dúvidas e ideias, sem a IA inventar dono ou prazo.</p>
+              <ul class="formatos" aria-label="Formatos">
+                <li>Skill no GitHub</li><li>Guia PDF</li><li>Pedido para copiar</li><li>Modelo CSV</li>
+              </ul>
+              <span class="card__abrir" aria-hidden="true">Abrir material
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </span>
+            </div>
+          </article>
+        </li>
+      </ul>
+
+      <div class="vazio" id="vazio" hidden>
+        <p>Nenhum material com esses termos.</p>
+        <button type="button" class="chip" id="limpar">Limpar busca e filtro</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" aria-labelledby="titulo-como">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Como cada material funciona</p>
+        <h2 class="h2" id="titulo-como">Entrada, saída <span class="s">e conferência.</span></h2>
+      </div>
+      <ol class="registro">
+        <li><span class="tag"><b>01</b> · entrada</span><h3 class="h3">Suas anotações</h3><p>Você cola o que já tem, sem nomes ou dados sensíveis.</p></li>
+        <li><span class="tag"><b>02</b> · pedido</span><h3 class="h3">Um pedido pronto</h3><p>Copie o texto do material e cole no chat de IA que você já usa.</p></li>
+        <li><span class="tag"><b>03</b> · revisão</span><h3 class="h3">Você confere</h3><p>Cada material traz um checklist. Nada é enviado sozinho.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="secao" id="proximos-passos" aria-labelledby="titulo-proximos">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Próximo passo, se quiser</p>
+        <h2 class="h2" id="titulo-proximos">Quer mais <span class="s">rotinas prontas?</span></h2>
+        <p>Os materiais desta biblioteca continuam gratuitos e independentes de qualquer compra.</p>
+      </div>
+      <div class="passos">
+        <article class="bloco" aria-labelledby="titulo-kit">
+          <p class="rotulo">Produto</p>
+          <h3 class="h3" id="titulo-kit">Kit 10 Agentes de IA para Pequenas Empresas</h3>
+          <p>Dez agentes prontos para tarefas de atendimento, comercial, financeiro, RH e gestão, com guia em PDF. Sem código: copie, cole e use.</p>
+          <div class="preco"><strong>R$ 47</strong><span>pagamento único</span></div>
+          <a class="btn" href="https://pay.cakto.com.br/iz9n4ir_1349217" rel="noopener">
+            <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+            <span class="txt">Conhecer o Kit 10<small>abre a página de pagamento (Cakto)</small></span>
+          </a>
+        </article>
+        <article class="bloco" aria-labelledby="titulo-mentoria">
+          <p class="rotulo">Acompanhamento</p>
+          <h3 class="h3" id="titulo-mentoria">Mentoria de implantação</h3>
+          <p>Diagnóstico e implantação orientada de automação em uma rotina da sua empresa. Ainda estamos definindo formato, agenda e valor; por isso não há inscrição aberta.</p>
+          <span class="estado">Em preparação</span>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <p>Agentes que Trabalham · materiais gratuitos, sem cadastro.</p>
+    <p><a href="https://www.instagram.com/agentesquetrabalham/" rel="noopener">@agentesquetrabalham no Instagram</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/biblioteca.js" defer></script>
+</body>
+</html>

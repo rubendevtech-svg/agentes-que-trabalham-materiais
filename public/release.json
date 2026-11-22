@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "path": "arquivos/ATA-001-modelo.csv",
+      "bytes": 64,
+      "sha256": "9391c14a22a01914cbc4de11fc37131410591a0588b2a80a93052c948fa45dce"
+    },
+    {
+      "path": "arquivos/Skill Meeting Synthesis - Amplitude.pdf",
+      "bytes": 250394,
+      "sha256": "3fe9335b788886d51b37f37e578b5d0aa9db85135bca363a7a15b65c48b28bd4"
+    },
+    {
+      "path": "assets/css/site.css",
+      "bytes": 20905,
+      "sha256": "83c70c53e27e38a4c370b0cb0d0fbc4a5ea52100f6b75a8c46cb412b27d80ca1"
+    },
+    {
+      "path": "assets/fonts/Anton-OFL.txt",
+      "bytes": 4484,
+      "sha256": "ee67e6ee22790b7929f1a3769ca2801d565c64b5a9096942c1adf5596de9c9e4"
+    },
+    {
+      "path": "assets/fonts/Anton-Regular.ttf",
+      "bytes": 170812,
+      "sha256": "a4ba3a92350ebb031da0cb47630ac49eb265082ca1bc0450442f4a83ab947cab"
+    },
+    {
+      "path": "assets/fonts/Geist-latin-1.woff2",
+      "bytes": 29400,
+      "sha256": "19f9c92546aa300c312235e3125af1b81394d8db9a4bc4a425cd5b641d2d54e1"
+    },
+    {
+      "path": "assets/fonts/Geist-latin-ext-0.woff2",
+      "bytes": 16512,
+      "sha256": "824f485b5d26e2f2da3c2b236132ece1bc8e4e43373452950bb0e40548b4313f"
+    },
+    {
+      "path": "assets/fonts/GeistMono-latin-3.woff2",
+      "bytes": 23128,
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc"
+    },
+    {
+      "path": "assets/fonts/GeistMono-latin-ext-2.woff2",
+      "bytes": 14696,
+      "sha256": "1a189eb997c3e2ece68373e387afaec9e8617424186c4b1ab3cff7c54ba6223b"
+    },
+    {
+      "path": "assets/img/favicon.png",
+      "bytes": 5127,
+      "sha256": "283ba3a0cf50aa25b962c3e4f138613ff0a8a5fc9c7cdfacd7f6438ae273d69d"
+    },
+    {
+      "path": "assets/img/logo-robozinho.png",
+      "bytes": 27475,
+      "sha256": "9e36e8cd420288d7aa4877fe3e740b8090f07836b8e9be9c34a740ff085cf801"
+    },
+    {
+      "path": "assets/img/obj-cubos-fluxo.jpg",
+      "bytes": 66003,
+      "sha256": "5c701b90eb1ef7577a734ec6fa18687a568a32f0f437bda2533205e6cec1664c"
+    },
+    {
+      "path": "assets/img/obj-cubos-fluxo.webp",
+      "bytes": 22780,
+      "sha256": "024fbaafc2fddaad9e0fec87f32052515f9096d30a41e3cda518dfb7e5c1b279"
+    },
+    {
+      "path": "assets/img/obj-lupa-revisao.jpg",
+      "bytes": 80856,
+      "sha256": "c526fa0a7c31dfa9c7ccd8edd65d0708b9bbbb983f758de58e37a5f5254fd1f7"
+    },
+    {
+      "path": "assets/img/obj-lupa-revisao.webp",
+      "bytes": 33280,
+      "sha256": "8bf07aaf35908572768d53e749551d9fe7dad1658924d953ec402d9899b82092"
+    },
+    {
+      "path": "assets/js/biblioteca.js",
+      "bytes": 3680,
+      "sha256": "f8e452221707473f2fb037ea75a1a621329f616fa4b3f14926919b33e2a68e73"
+    },
+    {
+      "path": "assets/js/recurso.js",
+      "bytes": 3000,
+      "sha256": "7dd5c0a4f2a1d2af5e8f5cf3f65c305edc259d869a36cb7bba3287818f99835b"
+    },
+    {
+      "path": "data/recursos.json",
+      "bytes": 2835,
+      "sha256": "f57c53161126a3048c0a19bc6dfb1aa74b1e04b7965ed6e6b70ec9514e03ec6a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7943,
+      "sha256": "f4a8df64e5806282cbe648e783879eb3ad0a95b6ae191d013a05b5e5e034b796"
+    },
+    {
+      "path": "LICENCAS.md",
+      "bytes": 1409,
+      "sha256": "8ee9bc1c31e3d8292a03c3183b37004337e2f817bc3b4cdd4b62041039f1dd91"
+    },
+    {
+      "path": "materiais/ata-001/index.html",
+      "bytes": 18440,
+      "sha256": "3581529fcf813cab540d2fba31c1e630d94afd78c741f8fbb5cedadae752e2a9"
+    }
+  ]
+}
