@@ -92,8 +92,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 8016,
-      "sha256": "56deb7e56a62d2fe76d829a7f68e16ace466b7386c5575f7db520e93c44d1c80"
+      "bytes": 7945,
+      "sha256": "6545e3431806daa453bb78249de9db42857f1c799bb167c36540bca10229c54d"
     },
     {
       "path": "LICENCAS.md",
@@ -102,8 +102,13 @@
     },
     {
       "path": "materiais/ata-001/index.html",
-      "bytes": 18531,
-      "sha256": "f7e12594034930dbaea0014f058a9ec8a58759ea1c4b2c6947f434835a2ca75c"
+      "bytes": 18466,
+      "sha256": "60bba654289104e79b672df1712b8a1ca27bc2260da4243d582c1866e766cde9"
+    },
+    {
+      "path": "produtos/kit-10-agentes/index.html",
+      "bytes": 9572,
+      "sha256": "555a2ab2a5520d548912bc7a53610f7c280293e2dab3d9c587c110cdb85fe782"
     }
   ]
 }
