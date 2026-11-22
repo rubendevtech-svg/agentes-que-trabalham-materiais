@@ -1,6 +1,6 @@
 # Agentes que Trabalham — Biblioteca gratuita
 
-Site estatico publicado no Render: https://agentes-que-trabalham.onrender.com
+Site estatico publicado no Render: https://agentesquetrabalham.onrender.com
 
 Branch site; pasta public; build true. O repositorio contem somente materiais gratuitos e os arquivos necessarios ao site, sem kit pago, testes ou historicos.
 

@@ -87,13 +87,13 @@
     },
     {
       "path": "data/recursos.json",
-      "bytes": 3113,
-      "sha256": "68a80b5280c4807371b9e162848aae81ec0531ee814e34022ee817268ddd1a96"
+      "bytes": 3109,
+      "sha256": "445193de3c1a3d9a1c3066396190ac47279340cc80d841d4fa753ba5a6e1cdb8"
     },
     {
       "path": "index.html",
-      "bytes": 7943,
-      "sha256": "f4a8df64e5806282cbe648e783879eb3ad0a95b6ae191d013a05b5e5e034b796"
+      "bytes": 8016,
+      "sha256": "56deb7e56a62d2fe76d829a7f68e16ace466b7386c5575f7db520e93c44d1c80"
     },
     {
       "path": "LICENCAS.md",
@@ -102,8 +102,8 @@
     },
     {
       "path": "materiais/ata-001/index.html",
-      "bytes": 18440,
-      "sha256": "3581529fcf813cab540d2fba31c1e630d94afd78c741f8fbb5cedadae752e2a9"
+      "bytes": 18531,
+      "sha256": "f7e12594034930dbaea0014f058a9ec8a58759ea1c4b2c6947f434835a2ca75c"
     }
   ]
 }
