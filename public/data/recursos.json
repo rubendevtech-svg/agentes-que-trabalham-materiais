@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-22T22:55:43",
+  "gerado_em": "2026-11-22T23:35:18",
   "recursos": [
     {
       "recurso_id": "ATA-001",
@@ -124,13 +124,14 @@
         "pagina": "produtos/kit-10-agentes/",
         "nota": "ponte opcional para outras rotinas; nao e pacote de skills de marketing; sem checkout direto"
       },
-      "status": "local_pronto",
-      "publicado": false,
-      "url_publica": null,
-      "pdf_url_publica": null,
+      "status": "publicado_verificado_http",
+      "publicado": true,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/mkt-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Skills%20para%20Transformar%20Ideias%20em%20Posts%20-%20Agentes%20que%20Trabalham.pdf",
       "dm_testado": false,
       "direct_testado": false,
-      "whatsapp_canal": null
+      "whatsapp_canal": null,
+      "publicado_em": "2026-11-22T23:35:00-03:00"
     }
   ]
 }

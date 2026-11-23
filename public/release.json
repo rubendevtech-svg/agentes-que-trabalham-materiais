@@ -102,8 +102,8 @@
     },
     {
       "path": "data/recursos.json",
-      "bytes": 6049,
-      "sha256": "6ddab5b072c7cadf87182eadfdbd5e61d50ec85e7a88902eccfa4b9bf1b28ad1"
+      "bytes": 6303,
+      "sha256": "6392ca70256397d3a3757d67e5d5e603ca4ecd31d592cbc8f82ff6cc42713497"
     },
     {
       "path": "index.html",
