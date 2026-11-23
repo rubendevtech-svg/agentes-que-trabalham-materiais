@@ -8,4 +8,6 @@
 | Objetos 3D (`assets/img/obj-*.webp/.jpg`) | Identidade v3, `marcas/agentesquetrabalham/v3/objetos/` (Figma, gpt-image-2.5-flare) | Arte própria da marca, reduzida para web. |
 | Lógica do botão copiar (`assets/js/recurso.js`) | Adaptada de `copy-button` do Cult UI (https://www.cult-ui.com/r/copy-button.json) | MIT. Reescrita em JS puro, sem React/motion. |
 | Ícones SVG das páginas | Desenhados no próprio código (traços simples) | Próprios. |
+| Skills citadas no MKT-001 (`social` 2.6.0 e `copy-editing` 2.2.4) | Corey Haines, https://github.com/coreyhaines31/marketingskills, commit `5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1` | MIT, Copyright (c) 2025 Corey Haines (licença: https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/LICENSE). Só links; nenhum arquivo SKILL.md é copiado para o site ou para o PDF. |
+| Conteúdo do MKT-001 (guia, comando copiável, exemplo) | `funil-organico/curadoria/MKT-001/` | Material original de Agentes que Trabalham. Exemplo fictício, exercício manual parcial. |
 | Conteúdo do ATA-001 | `ESCRITORIO-AGENTES/salas/Escritorio-Social/funil-organico/ATA-001-conteudo.md` e `ATA-001-modelo.csv` | Material original de Agentes que Trabalham. Exemplos fictícios. |

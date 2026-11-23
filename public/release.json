@@ -11,6 +11,11 @@
       "sha256": "3fe9335b788886d51b37f37e578b5d0aa9db85135bca363a7a15b65c48b28bd4"
     },
     {
+      "path": "arquivos/Skills para Transformar Ideias em Posts - Agentes que Trabalham.pdf",
+      "bytes": 286146,
+      "sha256": "2fe61146af230ce96f8ca1241a4f8573408708428f21917205c0f368cf714a7b"
+    },
+    {
       "path": "assets/css/site.css",
       "bytes": 20905,
       "sha256": "83c70c53e27e38a4c370b0cb0d0fbc4a5ea52100f6b75a8c46cb412b27d80ca1"
@@ -56,6 +61,16 @@
       "sha256": "9e36e8cd420288d7aa4877fe3e740b8090f07836b8e9be9c34a740ff085cf801"
     },
     {
+      "path": "assets/img/obj-caixa-skills.jpg",
+      "bytes": 126269,
+      "sha256": "ce58b3229e443e0dcb71ddb6cca3a4d8f9a945e920a383238e31c2cc48fec4c3"
+    },
+    {
+      "path": "assets/img/obj-caixa-skills.webp",
+      "bytes": 64390,
+      "sha256": "422af463a96e6de7fffb593cceba416c7bb0170401eee2eaf5906f9ec5de70b5"
+    },
+    {
       "path": "assets/img/obj-cubos-fluxo.jpg",
       "bytes": 66003,
       "sha256": "5c701b90eb1ef7577a734ec6fa18687a568a32f0f437bda2533205e6cec1664c"
@@ -87,23 +102,28 @@
     },
     {
       "path": "data/recursos.json",
-      "bytes": 3109,
-      "sha256": "445193de3c1a3d9a1c3066396190ac47279340cc80d841d4fa753ba5a6e1cdb8"
+      "bytes": 6049,
+      "sha256": "6ddab5b072c7cadf87182eadfdbd5e61d50ec85e7a88902eccfa4b9bf1b28ad1"
     },
     {
       "path": "index.html",
-      "bytes": 7945,
-      "sha256": "6545e3431806daa453bb78249de9db42857f1c799bb167c36540bca10229c54d"
+      "bytes": 9186,
+      "sha256": "809a0ecd4cd8609b17afe528ca4882c1eb85152b0384c1ce0960676e3a60854a"
     },
     {
       "path": "LICENCAS.md",
-      "bytes": 1409,
-      "sha256": "8ee9bc1c31e3d8292a03c3183b37004337e2f817bc3b4cdd4b62041039f1dd91"
+      "bytes": 2013,
+      "sha256": "f5e66dedcc975d451d42f7dba3f33aee9c13ef571455433fee54e996d389479e"
     },
     {
       "path": "materiais/ata-001/index.html",
       "bytes": 18466,
       "sha256": "60bba654289104e79b672df1712b8a1ca27bc2260da4243d582c1866e766cde9"
+    },
+    {
+      "path": "materiais/mkt-001/index.html",
+      "bytes": 18776,
+      "sha256": "5f3f1fae13c24404d4be8ad3ab5374a36d5ee355c4860bc5d25a8d04ea858161"
     },
     {
       "path": "produtos/kit-10-agentes/index.html",

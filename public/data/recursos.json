@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-22T17:54:37",
+  "gerado_em": "2026-11-22T22:55:43",
   "recursos": [
     {
       "recurso_id": "ATA-001",
@@ -64,6 +64,73 @@
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Skill%20Meeting%20Synthesis%20-%20Amplitude.pdf",
       "publicado_em": "2026-11-22T18:22:55.063219-03:00",
       "direct_testado": false
+    },
+    {
+      "recurso_id": "MKT-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Marketing",
+      "titulo": "Skills para transformar ideias em posts",
+      "versao": "1",
+      "data_versao": "2026-11-22",
+      "pagina": "materiais/mkt-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Skills para Transformar Ideias em Posts - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 286146,
+          "sha256": "2fe61146af230ce96f8ca1241a4f8573408708428f21917205c0f368cf714a7b",
+          "gerado_em": "2026-11-22T22:52:15"
+        }
+      ],
+      "fonte_editorial": "funil-organico/curadoria/MKT-001/conteudo-guia.md",
+      "skills_citadas": [
+        {
+          "nome": "social",
+          "versao": "2.6.0",
+          "url_skill": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/social/SKILL.md"
+        },
+        {
+          "nome": "copy-editing",
+          "versao": "2.2.4",
+          "url_skill": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/skills/copy-editing/SKILL.md"
+        }
+      ],
+      "fonte": {
+        "mantenedor": "Corey Haines",
+        "repositorio": "https://github.com/coreyhaines31/marketingskills",
+        "commit": "5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+        "url_commit": "https://github.com/coreyhaines31/marketingskills/commit/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1",
+        "licenca": "MIT",
+        "url_licenca": "https://github.com/coreyhaines31/marketingskills/blob/5b2b400eec1e7e1cec76245a715d0b0d4fd2a9c1/LICENSE",
+        "metricas": {
+          "repositorio_estrelas": 62043,
+          "repositorio_forks": 9061,
+          "instalacoes_social": "105,3 mil",
+          "instalacoes_copy_editing": "168 mil",
+          "fonte_instalacoes": "https://skills.sh/coreyhaines31/marketingskills",
+          "data": "2026-11-22",
+          "nota": "contagens separadas; nao sao avaliacao nem prova de qualidade"
+        },
+        "alias_historico": {
+          "social-content": "nome antigo; caminho nao existe no commit atual; usar social"
+        },
+        "ficha": "funil-organico/curadoria/MKT-001/ficha.json",
+        "status_teste": "exercicio_manual_parcial (curadora no proprio contexto; nao e instalacao, agente isolado nem integracao)"
+      },
+      "oferta_ponte": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "pagina": "produtos/kit-10-agentes/",
+        "nota": "ponte opcional para outras rotinas; nao e pacote de skills de marketing; sem checkout direto"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": null,
+      "pdf_url_publica": null,
+      "dm_testado": false,
+      "direct_testado": false,
+      "whatsapp_canal": null
     }
   ]
 }
