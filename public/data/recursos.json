@@ -163,8 +163,8 @@
         {
           "tipo": "txt",
           "caminho": "arquivos/Agente POP Passo a Passo - Agentes que Trabalham - Pedido para Copiar.txt",
-          "bytes": 1892,
-          "sha256": "bf95e521a130033f5d1fbcefd5fb2fbb94c77fbefba855f5699840ee31379629"
+          "bytes": 1849,
+          "sha256": "fca9de6d02695a19d7281f8b0fb4a50dcc71fb0a839739deea5e4180d61f2463"
         }
       ],
       "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/adm-001.json",
@@ -238,8 +238,8 @@
         {
           "tipo": "txt",
           "caminho": "arquivos/Agente Acompanhamento de Orçamento - Agentes que Trabalham - Pedido para Copiar.txt",
-          "bytes": 1719,
-          "sha256": "f0b5504fef7d2cb07e53cdc116698dfb25a3cc0cfbfe6b926f17492fe55e645b"
+          "bytes": 1684,
+          "sha256": "7797852a006f2095acd06af3591c1024d181ef6521b841282b5f049bf33b96d4"
         }
       ],
       "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/com-001.json",
@@ -317,8 +317,8 @@
         {
           "tipo": "txt",
           "caminho": "arquivos/Agente Cobrança Sem Ameaça - Agentes que Trabalham - Pedido para Copiar.txt",
-          "bytes": 1888,
-          "sha256": "f730e53e55260edbf5800f43e45cc630e8d80d0587ae4a199d37a5edee121964"
+          "bytes": 1850,
+          "sha256": "fd0360d6e3f9c01e14273e66a917d8487acf45b35352d9c0b27e19e34600e2b9"
         }
       ],
       "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/fin-001.json",
@@ -396,8 +396,8 @@
         {
           "tipo": "txt",
           "caminho": "arquivos/Agente Prioridade do Dia - Agentes que Trabalham - Pedido para Copiar.txt",
-          "bytes": 1900,
-          "sha256": "c7224949f6fdedbb192d2e33ec8b73a8e8aa6ad7a31f5226a7748833a1855a81"
+          "bytes": 1867,
+          "sha256": "f568ffabe86d610b63b1ee867199b8394566951c3afdadb4685a80c6f65a6a1e"
         }
       ],
       "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/ges-001.json",
@@ -468,8 +468,8 @@
         {
           "tipo": "txt",
           "caminho": "arquivos/Agente Status Semanal de Projeto - Agentes que Trabalham - Pedido para Copiar.txt",
-          "bytes": 1910,
-          "sha256": "e9b6b424272c4e916e9441af868e5b015fb778b55a8f152c2ef5db2859813279"
+          "bytes": 1866,
+          "sha256": "cc232e38aa76cf593448c813640bb7c27e1b76274e34e32475cdef5a6d4e98bd"
         }
       ],
       "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/ges-002.json",
@@ -551,8 +551,8 @@
         {
           "tipo": "txt",
           "caminho": "arquivos/Agente Integração de 30 Dias - Agentes que Trabalham - Pedido para Copiar.txt",
-          "bytes": 2092,
-          "sha256": "7a57b44b9a3cb192a8f1d88047932eb484d60f2cd4a24a8316b4c77eecbbe288"
+          "bytes": 2058,
+          "sha256": "d9130f5c0e56e3c521987d7ee1801d2b7402af3fbf1c096cf5026c35ba8ddf62"
         }
       ],
       "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/rh-001.json",
@@ -628,8 +628,8 @@
         {
           "tipo": "txt",
           "caminho": "arquivos/Guia de Planilha de Funcionários sem Dados Sensíveis - Agentes que Trabalham - Pedido para Copiar.txt",
-          "bytes": 1621,
-          "sha256": "46ba578290dca6a869fa7a12202a5fa4224aff2fde9783243bca03c9a879792a"
+          "bytes": 1584,
+          "sha256": "a36575a5a8bb42070c75f6c9c3b8db0064b1ca53098bded8462fa8c8308e6512"
         }
       ],
       "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/rh-002.json",
