@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-22T23:35:18",
+  "gerado_em": "2026-11-24T13:41:02",
   "recursos": [
     {
       "recurso_id": "ATA-001",
@@ -132,6 +132,557 @@
       "direct_testado": false,
       "whatsapp_canal": null,
       "publicado_em": "2026-11-22T23:35:00-03:00"
+    },
+    {
+      "recurso_id": "ADM-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Administrativo",
+      "titulo": "POP passo a passo",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/adm-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Agente POP Passo a Passo - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 223192,
+          "sha256": "919b6db8739fd4e8e9f91e82637d65e230d837e4313c9d38250ac4eed1fc6cf3",
+          "gerado_em": "2026-11-24T13:40:56",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular",
+            "EAAAAA+Consolas",
+            "FAAAAA+ArialMT"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Agente POP Passo a Passo - Agentes que Trabalham - Pedido para Copiar.txt",
+          "bytes": 1892,
+          "sha256": "bf95e521a130033f5d1fbcefd5fb2fbb94c77fbefba855f5699840ee31379629"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/adm-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-23/carrossel-20h",
+        "contas/agentesquetrabalham/2026-11-23/reel-19h-gravado",
+        "contas/agentesquetrabalham/2026-11-23/evidencias"
+      ],
+      "agente_kit_pago_nao_copiado": "10-gestao-pop-passo-a-passo.txt",
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-23/evidencias/pop-ex1-entrada.txt",
+          "sha256": "3a1da275d106e9e35c383e80d7a95922069c4e020003c12e93216691a6e6cc5e"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-23/evidencias/pop-ex1-saida-23nov.txt",
+          "sha256": "64d926bbf954f32643ee33d5beac9c8f146959547aa2489b28a5e1d7e3e75396"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-23/evidencias/testes-pop-23nov-meta.json",
+          "sha256": "27a3153fbff92d317f7607ab2b4f34de3a42593b6fcac1ccdb5168249f038a12"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-23/evidencias/10-gestao-pop-passo-a-passo.txt",
+          "sha256": "eb5e4963d4c06764cd3fb9f313fea41b653667a0aa1e239d57ebe7926cfa8180"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": "18103116497641350",
+          "tipo": "carrossel"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/adm-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20POP%20Passo%20a%20Passo%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20POP%20Passo%20a%20Passo%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+    },
+    {
+      "recurso_id": "COM-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Comercial",
+      "titulo": "Acompanhamento de orçamento",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/com-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Agente Acompanhamento de Orçamento - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 223803,
+          "sha256": "21d4bf7222182994211a33de6317fba973d68d58af0f5e7affc91707cec024b9",
+          "gerado_em": "2026-11-24T13:40:57",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Agente Acompanhamento de Orçamento - Agentes que Trabalham - Pedido para Copiar.txt",
+          "bytes": 1719,
+          "sha256": "f0b5504fef7d2cb07e53cdc116698dfb25a3cc0cfbfe6b926f17492fe55e645b"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/com-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-22/reel-18h-animado",
+        "contas/agentesquetrabalham/2026-11-22/carrossel-13h",
+        "contas/agentesquetrabalham/2026-11-22/evidencias"
+      ],
+      "agente_kit_pago_nao_copiado": "03-comercial-acompanhamento.txt",
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/followup-ex1-entrada.txt",
+          "sha256": "a2693dd6af1cb1f929526bc871cbd604bf37694c5cc1faa4c6fed4c8279d256c"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/followup-ex1-saida-22nov.txt",
+          "sha256": "a83ae2c9e566dd173ade6c5e8073b8520b9b1b6e87eab942a548b9775d50e71d"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/testes-followup-22nov-meta.json",
+          "sha256": "ac875f0a3582c46c5344d7eb7497b0ba94cbaf8b228ce07b73053c11cbe0ef2a"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/03-comercial-acompanhamento.txt",
+          "sha256": "5aba1ee1849df535494fe2f92aa5893c80759e82793de879a25b40bfeece2921"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": "18126432928942841",
+          "tipo": "reel"
+        },
+        {
+          "post_id": "18030320594875312",
+          "tipo": "carrossel"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/com-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Acompanhamento%20de%20Or%C3%A7amento%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Acompanhamento%20de%20Or%C3%A7amento%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+    },
+    {
+      "recurso_id": "FIN-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Financeiro",
+      "titulo": "Cobrança sem ameaça",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/fin-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Agente Cobrança Sem Ameaça - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 209710,
+          "sha256": "5422fa8fab2f2374a8de7f0577108e007ed5e84bfbcbb39eda1fe12069cfa68a",
+          "gerado_em": "2026-11-24T13:40:58",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Agente Cobrança Sem Ameaça - Agentes que Trabalham - Pedido para Copiar.txt",
+          "bytes": 1888,
+          "sha256": "f730e53e55260edbf5800f43e45cc630e8d80d0587ae4a199d37a5edee121964"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/fin-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-21/reel-12h-animado",
+        "contas/agentesquetrabalham/2026-11-21/carrossel-13h",
+        "contas/agentesquetrabalham/2026-11-21/evidencias"
+      ],
+      "agente_kit_pago_nao_copiado": "04-financeiro-cobranca-gentil.txt",
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-21/evidencias/cobranca-ex1-entrada.txt",
+          "sha256": "abf01f950f8dad0422f7dc5d652057017e26ac8b80bc487c0cb2ccc5f5e8822a"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-21/evidencias/cobranca-ex1-saida-21nov.txt",
+          "sha256": "2a09f5f857188de2920aa22d50a510f7d7ba37d87b274af4d65ba6a11e7ab937"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-21/evidencias/testes-21nov-meta.json",
+          "sha256": "517e0ee3512a8f33dbe1e6c22940165b256dde22015b60f587bd90617b391bcc"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-21/evidencias/04-financeiro-cobranca-gentil.txt",
+          "sha256": "7afc0910b76a0c10e95a1e1d38623e5aee5733afe95da3c8b57d0b0b0b86aa80"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": "18656775553048486",
+          "tipo": "reel"
+        },
+        {
+          "post_id": "18124829003039887",
+          "tipo": "carrossel"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/fin-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Cobran%C3%A7a%20Sem%20Amea%C3%A7a%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Cobran%C3%A7a%20Sem%20Amea%C3%A7a%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+    },
+    {
+      "recurso_id": "GES-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Gestão",
+      "titulo": "Prioridade do dia",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/ges-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Agente Prioridade do Dia - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 225043,
+          "sha256": "00f5586e84682080f25acf0627a6f5fb7634552201e83531a3f78b24abdbb11e",
+          "gerado_em": "2026-11-24T13:40:59",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Agente Prioridade do Dia - Agentes que Trabalham - Pedido para Copiar.txt",
+          "bytes": 1900,
+          "sha256": "c7224949f6fdedbb192d2e33ec8b73a8e8aa6ad7a31f5226a7748833a1855a81"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/ges-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-24/carrossel-20h",
+        "contas/agentesquetrabalham/2026-11-24/reel-19h-gravado",
+        "contas/agentesquetrabalham/2026-11-24/evidencias",
+        "funil-organico/curadoria/GES-001"
+      ],
+      "agente_kit_pago_nao_copiado": "08-gestao-briefing-do-dia.txt",
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-24/evidencias/teste-08-saida.txt",
+          "sha256": "dd18bc43e59d9a0fc93ffe8e946a6abf81c16c13d1af879afe16579f48956e9d"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-24/evidencias/teste-08-meta.json",
+          "sha256": "23eb59c294d3dae46d100dc361305417d1aa051bdb73e3183f7256e0359b3cc7"
+        },
+        {
+          "arquivo": "../Escritorio-Comercial/produto-kit-5-agentes/exemplos/08-briefing/ex1-entrada.txt",
+          "sha256": "eb613e996efa77e58d72362efa3284f741091cf93ff6c470d9aa2a736e738e75"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": "PENDENTE_20H",
+          "tipo": "carrossel"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/ges-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Prioridade%20do%20Dia%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Prioridade%20do%20Dia%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+    },
+    {
+      "recurso_id": "GES-002",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Gestão",
+      "titulo": "Status semanal em 5 linhas",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/ges-002/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Agente Status Semanal de Projeto - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 257489,
+          "sha256": "f75c2d6fe54cbcb635ea50da6d0eae99f89ea65d76a65033a33d8c843cb02af1",
+          "gerado_em": "2026-11-24T13:41:00",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Agente Status Semanal de Projeto - Agentes que Trabalham - Pedido para Copiar.txt",
+          "bytes": 1910,
+          "sha256": "e9b6b424272c4e916e9441af868e5b015fb778b55a8f152c2ef5db2859813279"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/ges-002.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-22/carrossel-20h",
+        "contas/agentesquetrabalham/2026-11-22/reel-19h-gravado",
+        "contas/agentesquetrabalham/2026-11-22/evidencias"
+      ],
+      "agente_kit_pago_nao_copiado": "09-gestao-status-semanal.txt",
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/status-ex2-entrada.txt",
+          "sha256": "efa80c6ccad4a1161287538a1682080616969b6717e30ae6c5533d93a5d1d209"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/status-ex2-saida-22nov.txt",
+          "sha256": "96a5f2da5ab2eb049014688a04c2971c08d9e5646ff5424c8e321427ac050bf5"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/status-ex1-entrada.txt",
+          "sha256": "444b9b3f5df202cc5078e82aea1919e5bb21b7fd0a7095c8516874752a94b614"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/status-ex1-saida-22nov.txt",
+          "sha256": "fbd7c619951d856e07247d2e027a03653d2ea9e9bdc9d674a62b362f4c45740d"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/testes-22nov-meta.json",
+          "sha256": "e0c05ea5ed4cf6a3f49a37dd1551574fc968a18c01962025e9ac6dfe0da7bb43"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-22/evidencias/09-gestao-status-semanal.txt",
+          "sha256": "ccef2e019b33024e7875de9fc3e9720d5359c47af154e4e27d783e447fb7aadd"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": "17977284930169799",
+          "tipo": "carrossel"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/ges-002/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Status%20Semanal%20de%20Projeto%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Status%20Semanal%20de%20Projeto%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+    },
+    {
+      "recurso_id": "RH-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "RH",
+      "titulo": "Integração dos primeiros 30 dias",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/rh-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Agente Integração de 30 Dias - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 242193,
+          "sha256": "732f5e1968b8672bbde176706233f25d1cd134e8336a2c9f43112dc798bba00b",
+          "gerado_em": "2026-11-24T13:41:01",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Agente Integração de 30 Dias - Agentes que Trabalham - Pedido para Copiar.txt",
+          "bytes": 2092,
+          "sha256": "7a57b44b9a3cb192a8f1d88047932eb484d60f2cd4a24a8316b4c77eecbbe288"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/rh-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-24/reel-12h-animado",
+        "contas/agentesquetrabalham/2026-11-24/carrossel-13h",
+        "contas/agentesquetrabalham/2026-11-24/evidencias",
+        "funil-organico/curadoria/RH-001"
+      ],
+      "agente_kit_pago_nao_copiado": "06-rh-integracao-30-dias.txt",
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-24/evidencias/teste-06-saida.txt",
+          "sha256": "3ec155653e78eaf5aef9f651d8f9b28bdeaac9165a6c788600785e28ae928307"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-24/evidencias/teste-06-meta.json",
+          "sha256": "b39f15425adba0531974f1c4dee23961e982bbbf1de4592b2410811109effd53"
+        },
+        {
+          "arquivo": "../Escritorio-Comercial/produto-kit-5-agentes/exemplos/06-integracao/ex1-entrada.txt",
+          "sha256": "1031199f6045313e690069ab350ce4eba27df84d2e40b8c0f17e8b0cec949169"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": "18380861065246501",
+          "tipo": "reel"
+        },
+        {
+          "post_id": "18135027325690012",
+          "tipo": "carrossel"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/rh-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Integra%C3%A7%C3%A3o%20de%2030%20Dias%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Integra%C3%A7%C3%A3o%20de%2030%20Dias%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+    },
+    {
+      "recurso_id": "RH-002",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "RH",
+      "titulo": "Planilha de funcionários sem dados sensíveis",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/rh-002/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Guia de Planilha de Funcionários sem Dados Sensíveis - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 224317,
+          "sha256": "b2eed28f4b8b6395908335ae7e3a2c9ccf44148426a8588cc92fd11e651e7cf6",
+          "gerado_em": "2026-11-24T13:41:02",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular",
+            "EAAAAA+ArialMT"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Guia de Planilha de Funcionários sem Dados Sensíveis - Agentes que Trabalham - Pedido para Copiar.txt",
+          "bytes": 1621,
+          "sha256": "46ba578290dca6a869fa7a12202a5fa4224aff2fde9783243bca03c9a879792a"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/rh-002.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-20/carrossel-20h",
+        "contas/agentesquetrabalham/2026-11-20/reel-19h-gravado",
+        "contas/agentesquetrabalham/2026-11-20/ENTREGA.md",
+        "contas/agentesquetrabalham/2026-11-20/revisao-copy.md"
+      ],
+      "agente_kit_pago_nao_copiado": null,
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-20/carrossel-20h/fonte/slide-02.html",
+          "sha256": "b6979d8659cd456ffb2fe0b3f405a83c5dcc6f88eea4400e21fc9cebdc21bc47"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-20/carrossel-20h/fonte/slide-05.html",
+          "sha256": "88f46993ba2673d05159e60264c5e2df01a7bc024e32f5f63ed56303a70bc770"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-20/carrossel-20h/fonte/slide-06.html",
+          "sha256": "db624980d3877cb77104a426971d7fcebf9a9e148939f14af3c19b15923d7a54"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-20/carrossel-20h/legenda.md",
+          "sha256": "455c16dce111fb16322a4b1065744a48d5dc8482c35752eea5b2418c33d325ef"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/2026-11-20/reel-19h-gravado/legenda.md",
+          "sha256": "52e3e23f9dcf9181a67de869c18a2572f56f91a885ebec09a400b7bd22b47d90"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": "18076781768770212",
+          "tipo": "carrossel"
+        },
+        {
+          "post_id": "18061329407811871",
+          "tipo": "reel"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/rh-002/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Guia%20de%20Planilha%20de%20Funcion%C3%A1rios%20sem%20Dados%20Sens%C3%ADveis%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Guia%20de%20Planilha%20de%20Funcion%C3%A1rios%20sem%20Dados%20Sens%C3%ADveis%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
     }
   ]
 }

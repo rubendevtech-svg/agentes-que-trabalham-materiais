@@ -1,0 +1,43 @@
+﻿POP passo a passo · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/adm-001/
+
+PEDIDO PARA COPIAR (troque o que está entre colchetes)
+
+Transforme o relato abaixo num POP (procedimento operacional padrão) da tarefa [nome da tarefa], para [quem vai usar].
+
+Monte assim:
+- Passos numerados, com CONFERIR onde for preciso checar.
+- Decisões: "Se isso, então aquilo".
+- Se der errado: situação → o que fazer.
+- Lacunas: o que o relato não explica, marcado [CONFIRMAR].
+
+Regras:
+- Não invente passo, regra ou dado. O que faltar vira [CONFIRMAR].
+- Não crie regra sanitária, fiscal ou de segurança: mande confirmar com o responsável técnico.
+- Se houver senha ou dado pessoal no relato, avise para apagar e não coloque no POP.
+- Termine com: Rascunho do POP. O responsável pela tarefa confere e aprova antes de usar.
+
+Relato:
+[cole aqui]
+
+O QUE MANDAR
+- O relato de quem faz a tarefa, do jeito que sair: "eu faço assim, depois aquilo"
+- O nome da tarefa
+- Quem faz e quem substitui na folga
+- O que precisa ter em mãos (sistema, celular, caderno de anotações…)
+- O que fazer quando algo dá errado, se já souber
+
+NÃO COLE NA IA
+- Senha de sistema
+- Dados reais de clientes ou pacientes: use um exemplo inventado
+- CPF, dado bancário ou de saúde de qualquer pessoa
+- Foto de documento ou de carteirinha
+
+CONFERÊNCIA ANTES DE USAR
+[ ] Respondi cada [CONFIRMAR] com quem decide?
+[ ] Conferi o que a IA acrescentou sozinha, marcado como sugerido ou não?
+[ ] Ficaram fora do POP senha, dado pessoal e qualquer regra sanitária, fiscal ou de segurança sem confirmação do responsável técnico?
+[ ] Quem faz a tarefa leu e aprovou?
+[ ] Combinei onde o POP fica e quando revisar?
+
+A IA pode errar e inventar. O resultado é um rascunho: você confere, ajusta e envia.

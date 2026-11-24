@@ -1,0 +1,37 @@
+﻿Planilha de funcionários sem dados sensíveis · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/rh-002/
+
+PEDIDO PARA COPIAR (troque o que está entre colchetes)
+
+Vou colar uma planilha de funcionários sem dados pessoais. Cada pessoa está como código (F01, F02, F03…). As colunas são: código, cargo, turno e férias.
+
+[cole aqui a planilha limpa]
+
+Monte a escala de [mês] com estes códigos. Regra: [ex.: ninguém repete fim de semana].
+
+Na resposta, use só os códigos. Não tente descobrir quem é cada pessoa.
+
+O QUE MANDAR
+- Um código para cada pessoa (F01, F02, F03…) no lugar do nome
+- Cargo
+- Turno
+- Férias já marcadas (o período)
+- O pedido, por exemplo: a escala do mês e a regra de fim de semana
+
+NÃO COLE NA IA
+- CPF e RG
+- Conta do banco e chave PIX
+- Endereço e telefone
+- Atestado, CID, afastamento e exame admissional ou periódico
+- O nome da pessoa: ele vira código
+- A lista de quem é quem: ela fica só na sua planilha
+- Qualquer outra coluna que ainda identifique alguém
+
+CONFERÊNCIA ANTES DE USAR
+[ ] Saíram CPF, RG, conta, PIX, endereço e telefone?
+[ ] Saiu tudo que é de saúde: atestado, CID, afastamento, exames?
+[ ] Os nomes viraram código e a lista de quem é quem ficou só na sua planilha?
+[ ] Sobrou alguma coluna que ainda identifique alguém? Se sim, tire também.
+[ ] Você conferiu nas configurações do app se as suas conversas podem ser usadas para treinar o modelo?
+
+A IA pode errar e inventar. O resultado é um rascunho: você confere, ajusta e envia.

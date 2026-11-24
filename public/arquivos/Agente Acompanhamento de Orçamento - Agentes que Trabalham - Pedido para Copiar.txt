@@ -1,0 +1,35 @@
+﻿Acompanhamento de orçamento · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/com-001/
+
+PEDIDO PARA COPIAR (troque o que está entre colchetes)
+
+Me ajude a retomar um orçamento sem resposta. Diga em que etapa o cliente está, quando mandar a próxima mensagem (padrão: 2 dias úteis sem resposta) e escreva um rascunho curto que retome o pedido e termine numa pergunta fácil. Diga também uma frase que eu devo evitar. Não invente preço, desconto nem condição: o que não estiver na anotação fica entre colchetes. Não envie nada.
+
+Hoje é [dia da semana, data].
+Empresa: [o que vende]. Assina: [nome].
+Canal: [WhatsApp ou e-mail].
+Cliente: [primeiro nome]. Pediu: [o quê].
+Orçamento enviado em: [data].
+Resposta: [o que disse, ou nada].
+
+O QUE MANDAR
+- A data de hoje (dia da semana e data)
+- O que a sua empresa vende e quem assina a mensagem
+- Canal: WhatsApp ou e-mail
+- Primeiro nome do cliente e o que ele pediu
+- Quando o orçamento foi enviado
+- O que o cliente respondeu (ou "nada"), do jeito que estiver anotado
+
+NÃO COLE NA IA
+- CPF e telefone do cliente
+- Endereço e dados de pagamento do cliente
+- Assuntos pessoais do cliente que não têm a ver com o orçamento
+
+CONFERÊNCIA ANTES DE USAR
+[ ] O cliente já não respondeu por outro canal?
+[ ] A data sugerida considera os feriados da sua cidade?
+[ ] Ficou alguma lacuna ([VALOR], [PRAZO: confirmar]) sem preencher?
+[ ] A mensagem oferece algo que você não combinou (preço, prazo, desconto)?
+[ ] O primeiro nome e o pedido do cliente estão certos?
+
+A IA pode errar e inventar. O resultado é um rascunho: você confere, ajusta e envia.

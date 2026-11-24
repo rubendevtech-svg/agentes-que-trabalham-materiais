@@ -1,0 +1,44 @@
+﻿Status semanal em 5 linhas · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/ges-002/
+
+PEDIDO PARA COPIAR (troque o que está entre colchetes)
+
+Transforme as anotações abaixo no status da semana do projeto [nome do projeto], para [cliente/sócio]. Prazo final combinado: [data].
+
+Responda em 5 linhas:
+1. SITUAÇÃO: verde, amarelo ou vermelho, com o motivo
+2. FEITO NA SEMANA
+3. PRÓXIMA SEMANA
+4. RISCOS E BLOQUEIOS
+5. PRECISO DE
+
+Regras:
+- Verde: o combinado da semana foi feito, sem bloqueio. Amarelo: algo atrasou, mas há plano e o prazo final está de pé. Vermelho: o prazo final ou uma entrega combinada não vai ser cumprida, ou há bloqueio que a equipe não resolve sozinha. Na dúvida, a cor mais séria.
+- Não invente número, percentual, data ou valor. O que faltar vira [DATA: confirmar].
+- Não culpe nem avalie pessoas. Escreva o fato e o efeito.
+
+Anotações:
+[cole aqui]
+
+O QUE MANDAR
+- As anotações da semana, do jeito que estiverem
+- O nome do projeto e para quem vai o status (cliente, sócio)
+- O prazo final combinado
+- O que foi feito, com número quando houver (ex.: 40 de 60 páginas)
+- O que vem na próxima semana e as datas que você já sabe
+
+NÃO COLE NA IA
+- CPF de qualquer pessoa
+- Salário
+- Informação de saúde
+- Assunto disciplinar de alguém: escreva só o efeito no trabalho
+- Percentual que ninguém mediu
+
+CONFERÊNCIA ANTES DE USAR
+[ ] Preenchi cada [DATA: confirmar]?
+[ ] A cor bate com o prazo final e com as entregas combinadas?
+[ ] Apareceu algum número ou percentual que não estava nas anotações?
+[ ] Ficou o fato, sem adjetivo sobre pessoas?
+[ ] Li como quem vai receber? (No teste, a linha 5 dizia "entre você e o sócio" num status para o sócio.)
+
+A IA pode errar e inventar. O resultado é um rascunho: você confere, ajusta e envia.

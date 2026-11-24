@@ -1,9 +1,79 @@
 {
   "files": [
     {
+      "path": "arquivos/Agente Acompanhamento de Orçamento - Agentes que Trabalham - Pedido para Copiar.txt",
+      "bytes": 1719,
+      "sha256": "f0b5504fef7d2cb07e53cdc116698dfb25a3cc0cfbfe6b926f17492fe55e645b"
+    },
+    {
+      "path": "arquivos/Agente Acompanhamento de Orçamento - Agentes que Trabalham.pdf",
+      "bytes": 223803,
+      "sha256": "21d4bf7222182994211a33de6317fba973d68d58af0f5e7affc91707cec024b9"
+    },
+    {
+      "path": "arquivos/Agente Cobrança Sem Ameaça - Agentes que Trabalham - Pedido para Copiar.txt",
+      "bytes": 1888,
+      "sha256": "f730e53e55260edbf5800f43e45cc630e8d80d0587ae4a199d37a5edee121964"
+    },
+    {
+      "path": "arquivos/Agente Cobrança Sem Ameaça - Agentes que Trabalham.pdf",
+      "bytes": 209710,
+      "sha256": "5422fa8fab2f2374a8de7f0577108e007ed5e84bfbcbb39eda1fe12069cfa68a"
+    },
+    {
+      "path": "arquivos/Agente Integração de 30 Dias - Agentes que Trabalham - Pedido para Copiar.txt",
+      "bytes": 2092,
+      "sha256": "7a57b44b9a3cb192a8f1d88047932eb484d60f2cd4a24a8316b4c77eecbbe288"
+    },
+    {
+      "path": "arquivos/Agente Integração de 30 Dias - Agentes que Trabalham.pdf",
+      "bytes": 242193,
+      "sha256": "732f5e1968b8672bbde176706233f25d1cd134e8336a2c9f43112dc798bba00b"
+    },
+    {
+      "path": "arquivos/Agente POP Passo a Passo - Agentes que Trabalham - Pedido para Copiar.txt",
+      "bytes": 1892,
+      "sha256": "bf95e521a130033f5d1fbcefd5fb2fbb94c77fbefba855f5699840ee31379629"
+    },
+    {
+      "path": "arquivos/Agente POP Passo a Passo - Agentes que Trabalham.pdf",
+      "bytes": 223192,
+      "sha256": "919b6db8739fd4e8e9f91e82637d65e230d837e4313c9d38250ac4eed1fc6cf3"
+    },
+    {
+      "path": "arquivos/Agente Prioridade do Dia - Agentes que Trabalham - Pedido para Copiar.txt",
+      "bytes": 1900,
+      "sha256": "c7224949f6fdedbb192d2e33ec8b73a8e8aa6ad7a31f5226a7748833a1855a81"
+    },
+    {
+      "path": "arquivos/Agente Prioridade do Dia - Agentes que Trabalham.pdf",
+      "bytes": 225043,
+      "sha256": "00f5586e84682080f25acf0627a6f5fb7634552201e83531a3f78b24abdbb11e"
+    },
+    {
+      "path": "arquivos/Agente Status Semanal de Projeto - Agentes que Trabalham - Pedido para Copiar.txt",
+      "bytes": 1910,
+      "sha256": "e9b6b424272c4e916e9441af868e5b015fb778b55a8f152c2ef5db2859813279"
+    },
+    {
+      "path": "arquivos/Agente Status Semanal de Projeto - Agentes que Trabalham.pdf",
+      "bytes": 257489,
+      "sha256": "f75c2d6fe54cbcb635ea50da6d0eae99f89ea65d76a65033a33d8c843cb02af1"
+    },
+    {
       "path": "arquivos/ATA-001-modelo.csv",
       "bytes": 64,
       "sha256": "9391c14a22a01914cbc4de11fc37131410591a0588b2a80a93052c948fa45dce"
+    },
+    {
+      "path": "arquivos/Guia de Planilha de Funcionários sem Dados Sensíveis - Agentes que Trabalham - Pedido para Copiar.txt",
+      "bytes": 1621,
+      "sha256": "46ba578290dca6a869fa7a12202a5fa4224aff2fde9783243bca03c9a879792a"
+    },
+    {
+      "path": "arquivos/Guia de Planilha de Funcionários sem Dados Sensíveis - Agentes que Trabalham.pdf",
+      "bytes": 224317,
+      "sha256": "b2eed28f4b8b6395908335ae7e3a2c9ccf44148426a8588cc92fd11e651e7cf6"
     },
     {
       "path": "arquivos/Skill Meeting Synthesis - Amplitude.pdf",
@@ -61,6 +131,26 @@
       "sha256": "9e36e8cd420288d7aa4877fe3e740b8090f07836b8e9be9c34a740ff085cf801"
     },
     {
+      "path": "assets/img/obj-cadeado-dados.jpg",
+      "bytes": 83513,
+      "sha256": "c5b143a0c13000e10df464a5c483c3949a4699d49f65d01d270eebd13c35f3d0"
+    },
+    {
+      "path": "assets/img/obj-cadeado-dados.webp",
+      "bytes": 33910,
+      "sha256": "a3931df67648a631c2e1d3d59098409d7c76f7e90dfc7b2ab372f62ae9da1559"
+    },
+    {
+      "path": "assets/img/obj-cadeira-vazia.jpg",
+      "bytes": 99624,
+      "sha256": "151385e8107eae439287cd6d96619aaf7d26dfd1eaeb061c2dfb8fc27fbbc410"
+    },
+    {
+      "path": "assets/img/obj-cadeira-vazia.webp",
+      "bytes": 49452,
+      "sha256": "6736d0fbf73b7c9b3a40152fd6a470dfd3917f4e5e086111046f0da141a1b755"
+    },
+    {
       "path": "assets/img/obj-caixa-skills.jpg",
       "bytes": 126269,
       "sha256": "ce58b3229e443e0dcb71ddb6cca3a4d8f9a945e920a383238e31c2cc48fec4c3"
@@ -69,6 +159,16 @@
       "path": "assets/img/obj-caixa-skills.webp",
       "bytes": 64390,
       "sha256": "422af463a96e6de7fffb593cceba416c7bb0170401eee2eaf5906f9ec5de70b5"
+    },
+    {
+      "path": "assets/img/obj-celular-resumo.jpg",
+      "bytes": 67588,
+      "sha256": "6db0304b5b4910b4b1a796ae880ba46de497aec2b595d47e8989ccbb3ce274bc"
+    },
+    {
+      "path": "assets/img/obj-celular-resumo.webp",
+      "bytes": 28486,
+      "sha256": "9c5e1640ef694569c8acffa73a75eec31f9d90bd2b267a99bb04631eba844a0c"
     },
     {
       "path": "assets/img/obj-cubos-fluxo.jpg",
@@ -81,6 +181,16 @@
       "sha256": "024fbaafc2fddaad9e0fec87f32052515f9096d30a41e3cda518dfb7e5c1b279"
     },
     {
+      "path": "assets/img/obj-funil-triagem.jpg",
+      "bytes": 86382,
+      "sha256": "efc7bc05d9b855c3618e235678c41f2632dce2fadf75298e53e519ea36062b0a"
+    },
+    {
+      "path": "assets/img/obj-funil-triagem.webp",
+      "bytes": 44128,
+      "sha256": "7ca70b581cdae663d7270bd5f95cc804b9196e06a12d3075a9fe66139efab4df"
+    },
+    {
       "path": "assets/img/obj-lupa-revisao.jpg",
       "bytes": 80856,
       "sha256": "c526fa0a7c31dfa9c7ccd8edd65d0708b9bbbb983f758de58e37a5f5254fd1f7"
@@ -89,6 +199,26 @@
       "path": "assets/img/obj-lupa-revisao.webp",
       "bytes": 33280,
       "sha256": "8bf07aaf35908572768d53e749551d9fe7dad1658924d953ec402d9899b82092"
+    },
+    {
+      "path": "assets/img/obj-notebook.jpg",
+      "bytes": 118838,
+      "sha256": "1fd15fab132b62e86764433952578bfa42892e49bdb910258a5bb48c8b2ce6d2"
+    },
+    {
+      "path": "assets/img/obj-notebook.webp",
+      "bytes": 62650,
+      "sha256": "348e375ecd5db40a62200f7932f99f90a3bf3bdf340aa650b471ad4196255b47"
+    },
+    {
+      "path": "assets/img/obj-numero-5.jpg",
+      "bytes": 86165,
+      "sha256": "aaec06b25f04b2e2a1892e2964f76d4be06eb14eb9f6cc2ec8c14308a261f7a1"
+    },
+    {
+      "path": "assets/img/obj-numero-5.webp",
+      "bytes": 43190,
+      "sha256": "8cf546c9dad50cd85384cfdbcad3906bdb3785a402c32f1e1a4aa5e57425e134"
     },
     {
       "path": "assets/js/biblioteca.js",
@@ -102,13 +232,13 @@
     },
     {
       "path": "data/recursos.json",
-      "bytes": 6303,
-      "sha256": "6392ca70256397d3a3757d67e5d5e603ca4ecd31d592cbc8f82ff6cc42713497"
+      "bytes": 29823,
+      "sha256": "724d95f54ce48364445671f089bc41e5893ca58f445ae38250c6447d9343b5e1"
     },
     {
       "path": "index.html",
-      "bytes": 9186,
-      "sha256": "809a0ecd4cd8609b17afe528ca4882c1eb85152b0384c1ce0960676e3a60854a"
+      "bytes": 18381,
+      "sha256": "fd1d9fbf0766cde9828a9c412d56aa53e18144f8814d2bdf5075b64d5293c4ad"
     },
     {
       "path": "LICENCAS.md",
@@ -116,14 +246,49 @@
       "sha256": "f5e66dedcc975d451d42f7dba3f33aee9c13ef571455433fee54e996d389479e"
     },
     {
+      "path": "materiais/adm-001/index.html",
+      "bytes": 19580,
+      "sha256": "7b330269b4760ee468add06ad9188f370e9bf2ee0875772c971f34a87d4d5e63"
+    },
+    {
       "path": "materiais/ata-001/index.html",
       "bytes": 18466,
       "sha256": "60bba654289104e79b672df1712b8a1ca27bc2260da4243d582c1866e766cde9"
     },
     {
+      "path": "materiais/com-001/index.html",
+      "bytes": 17341,
+      "sha256": "93c5dbefdac248e643d44db65ec850a6a5604b377e4daf4016fda93ddfe6d02b"
+    },
+    {
+      "path": "materiais/fin-001/index.html",
+      "bytes": 17886,
+      "sha256": "dde28648eea59c390bb30281fee6fac11ec89de16119747869f31f4ae1d82ac2"
+    },
+    {
+      "path": "materiais/ges-001/index.html",
+      "bytes": 18245,
+      "sha256": "c6426f46677cec84cb1f1d6f7398a2102cafc308dbd53fea1bb6f3d8ab81f1d9"
+    },
+    {
+      "path": "materiais/ges-002/index.html",
+      "bytes": 18093,
+      "sha256": "5aa548c37ec762f7caeb1dfce3d02c11a4bf3722ca91313db677a98253561e32"
+    },
+    {
       "path": "materiais/mkt-001/index.html",
       "bytes": 18776,
       "sha256": "5f3f1fae13c24404d4be8ad3ab5374a36d5ee355c4860bc5d25a8d04ea858161"
+    },
+    {
+      "path": "materiais/rh-001/index.html",
+      "bytes": 18967,
+      "sha256": "0b7fac194b4d02fec9aee657f9a4827c52f05b075e381c283613daf5408f8699"
+    },
+    {
+      "path": "materiais/rh-002/index.html",
+      "bytes": 16832,
+      "sha256": "8d8cfc1530c7b34c9cd7dfc7cf01c3acb34e62e6f14205ea0f25f9fd00d2ee71"
     },
     {
       "path": "produtos/kit-10-agentes/index.html",

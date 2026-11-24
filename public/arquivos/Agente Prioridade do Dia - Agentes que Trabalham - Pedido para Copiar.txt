@@ -1,0 +1,33 @@
+﻿Prioridade do dia · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/ges-001/
+
+PEDIDO PARA COPIAR (troque o que está entre colchetes)
+
+Hoje é [dia da semana, data]. Trabalho das [hora] às [hora].
+Agenda: [compromissos com horário]
+Pendências e recados: [contas com valor e vencimento, quem espera resposta e desde quando, tarefas, ideias]
+Organize meu dia em: prioridade nº 1 com o motivo; até 3 ações para fazer agora, com tempo estimado; compromissos com o que preparar; acompanhar hoje; vence hoje ou atrasado; pode esperar; conflitos de horário com as opções (a decisão é minha).
+Para a prioridade, olhe nesta ordem: prazo que vence hoje com dinheiro ou cliente envolvido, cliente esperando há mais tempo, o que destrava o trabalho de outra pessoa.
+Não invente horário, valor nem prazo: onde faltar, escreva [confirmar]. Se não souber quem é alguém, marque para eu confirmar. Pagamento: mande conferir no banco.
+
+O QUE MANDAR
+- A data de hoje e o seu horário de trabalho
+- Os compromissos do dia, com horário
+- Contas a pagar e a receber, com valor e vencimento
+- Quem espera resposta e desde quando
+- Tarefas e ideias soltas, do jeito que estiverem
+
+NÃO COLE NA IA
+- CPF, conta bancária e senhas
+- Telefone e endereço de clientes: o primeiro nome basta
+- Dados de saúde de qualquer pessoa
+- Prints de conversa com dados de terceiros
+
+CONFERÊNCIA ANTES DE USAR
+[ ] A prioridade nº 1 é mesmo a mais urgente para você hoje?
+[ ] Horários e valores batem com a sua agenda e as suas contas?
+[ ] Todos os [confirmar] foram respondidos?
+[ ] Antes de cobrar alguém, você conferiu no banco se o pagamento já caiu?
+[ ] Você decidiu os conflitos de horário e avisou quem precisa saber?
+
+A IA pode errar e inventar. O resultado é um rascunho: você confere, ajusta e envia.

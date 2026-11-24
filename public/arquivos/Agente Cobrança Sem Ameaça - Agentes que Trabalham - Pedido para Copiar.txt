@@ -1,0 +1,38 @@
+﻿Cobrança sem ameaça · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/fin-001/
+
+PEDIDO PARA COPIAR (troque o que está entre colchetes)
+
+Você escreve 3 mensagens de cobrança para um cliente com pagamento em atraso: lembrete (supõe esquecimento), firme (registra o atraso e pede uma data) e última tentativa (pede retorno e oferece conversa). Sugira quando mandar cada uma. Não ameace, não use "nome sujo" nem Serasa, não calcule juros e não invente desconto. Use só os valores abaixo e deixe em branco o que faltar.
+
+Empresa: [nome]. Assina: [quem assina].
+Hoje é: [data].
+Cliente: [primeiro nome]. Comprou: [o quê].
+Valor em aberto: [R$]. Venceu em: [data] ([N] dias de atraso).
+Costuma pagar em dia? [sim/não]. Já foi cobrado? [sim/não].
+Canal: [WhatsApp ou e-mail].
+Pix e boleto: deixe [CHAVE PIX] e [LINK DO BOLETO] para eu preencher.
+
+O QUE MANDAR
+- Nome da empresa e quem assina a mensagem
+- Primeiro nome do cliente
+- O que ele comprou
+- Valor em aberto
+- Vencimento e dias de atraso
+- Se costuma pagar em dia e se já foi cobrado
+- Canal: WhatsApp ou e-mail
+
+NÃO COLE NA IA
+- CPF, cartão e conta bancária do cliente
+- Endereço, telefone e documentos do cliente: não são necessários
+- Senhas de banco ou de sistema
+- Assuntos pessoais do cliente (saúde, família) que não têm a ver com a cobrança
+
+CONFERÊNCIA ANTES DE USAR
+[ ] O pagamento já não caiu?
+[ ] Valor e vencimento batem com o seu controle, sem juros ou multa?
+[ ] Pix e boleto estão preenchidos com os dados da empresa?
+[ ] O "procedimento" da última tentativa existe no seu contrato? Se não, você tirou a frase?
+[ ] As datas sugeridas e a condição de negociação foram definidas por você?
+
+A IA pode errar e inventar. O resultado é um rascunho: você confere, ajusta e envia.

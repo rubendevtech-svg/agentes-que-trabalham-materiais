@@ -1,0 +1,34 @@
+﻿Integração dos primeiros 30 dias · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/rh-001/
+
+PEDIDO PARA COPIAR (troque o que está entre colchetes)
+
+Monte o plano de integração dos primeiros 30 dias de um funcionário novo.
+Empresa: [ramo, cidade, nº de pessoas]. Cargo: [cargo]. Primeiro nome: [nome]. Começa em: [dia da semana e data].
+Jornada: [dias, horário e almoço]. Tarefas da função: [liste]. Quem recebe: [nome e cargo]. Padrinho: [nome e função]. Sistemas e materiais: [liste].
+Organize em: antes do primeiro dia; primeiro dia por período (chegada, manhã, almoço, tarde, fim do dia); primeira semana com no máximo uma tarefa nova por dia; semanas 2 a 4; perguntas para conversas nos dias 7, 15 e 30; mensagem de boas-vindas para o grupo da equipe.
+O que eu não informei, deixe entre [colchetes]. Marque o que for ideia sua como (sugestão). Documentação, registro, contrato e feriado: mande conferir com a contabilidade.
+
+O QUE MANDAR
+- Ramo, cidade e tamanho da empresa
+- Cargo e primeiro nome (ou só as iniciais)
+- Dia de início e jornada, com horário de almoço
+- As tarefas da função
+- Quem recebe no primeiro dia e quem será o padrinho
+- Sistemas, cadernos ou materiais que a pessoa vai usar
+
+NÃO COLE NA IA
+- CPF, RG e endereço da pessoa contratada
+- Salário e dados bancários
+- Exame admissional e qualquer dado de saúde
+- Nome completo: use o primeiro nome ou as iniciais
+- Senhas e acessos de sistema
+
+CONFERÊNCIA ANTES DE USAR
+[ ] Todos os colchetes foram preenchidos por quem decide na empresa?
+[ ] Os horários e prazos que vieram sem marca (como o 17h40 do teste) cabem na sua rotina?
+[ ] A primeira semana tem no máximo uma tarefa nova por dia, numa ordem que faz sentido para a função?
+[ ] As conversas dos dias 7, 15 e 30 caem em dia de trabalho da pessoa?
+[ ] Documentação, registro, contrato e feriados foram conferidos com a contabilidade?
+
+A IA pode errar e inventar. O resultado é um rascunho: você confere, ajusta e envia.
