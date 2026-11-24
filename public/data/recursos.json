@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-24T13:41:02",
+  "gerado_em": "2026-11-24T13:46:47",
   "recursos": [
     {
       "recurso_id": "ATA-001",
@@ -63,7 +63,13 @@
       "whatsapp_canal": null,
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Skill%20Meeting%20Synthesis%20-%20Amplitude.pdf",
       "publicado_em": "2026-11-22T18:22:55.063219-03:00",
-      "direct_testado": false
+      "direct_testado": false,
+      "palavras_direct": [
+        {
+          "palavra": "REUNIÃO",
+          "post_id": "18608210896070199"
+        }
+      ]
     },
     {
       "recurso_id": "MKT-001",
@@ -131,7 +137,17 @@
       "dm_testado": false,
       "direct_testado": false,
       "whatsapp_canal": null,
-      "publicado_em": "2026-11-22T23:35:00-03:00"
+      "publicado_em": "2026-11-22T23:35:00-03:00",
+      "palavras_direct": [
+        {
+          "palavra": "SKILLS",
+          "post_id": "18149285857599561"
+        },
+        {
+          "palavra": "REVISAR",
+          "post_id": "18103398293432925"
+        }
+      ]
     },
     {
       "recurso_id": "ADM-001",
@@ -203,12 +219,42 @@
         "preco": "R$ 47",
         "pagina": "produtos/kit-10-agentes/"
       },
-      "status": "local_pronto",
-      "publicado": false,
+      "status": "publicado",
+      "publicado": true,
       "url_publica": "https://agentesquetrabalham.onrender.com/materiais/adm-001/",
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20POP%20Passo%20a%20Passo%20-%20Agentes%20que%20Trabalham.pdf",
       "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20POP%20Passo%20a%20Passo%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
-      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)",
+      "publicado_em": "2026-11-24T13:46:47-03:00",
+      "verificacao_publica": {
+        "em": "2026-11-24T13:46:47-03:00",
+        "urls": [
+          {
+            "url": "https://agentesquetrabalham.onrender.com/materiais/adm-001/",
+            "status": 200
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20POP%20Passo%20a%20Passo%20-%20Agentes%20que%20Trabalham.pdf",
+            "status": 200,
+            "sha256_baixado": "919b6db8739fd4e8e9f91e82637d65e230d837e4313c9d38250ac4eed1fc6cf3",
+            "sha256_local": "919b6db8739fd4e8e9f91e82637d65e230d837e4313c9d38250ac4eed1fc6cf3",
+            "confere": true
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20POP%20Passo%20a%20Passo%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+            "status": 200,
+            "sha256_baixado": "fca9de6d02695a19d7281f8b0fb4a50dcc71fb0a839739deea5e4180d61f2463",
+            "sha256_local": "fca9de6d02695a19d7281f8b0fb4a50dcc71fb0a839739deea5e4180d61f2463",
+            "confere": true
+          }
+        ]
+      },
+      "palavras_direct": [
+        {
+          "palavra": "POP",
+          "post_id": "18103116497641350"
+        }
+      ]
     },
     {
       "recurso_id": "COM-001",
@@ -282,12 +328,46 @@
         "preco": "R$ 47",
         "pagina": "produtos/kit-10-agentes/"
       },
-      "status": "local_pronto",
-      "publicado": false,
+      "status": "publicado",
+      "publicado": true,
       "url_publica": "https://agentesquetrabalham.onrender.com/materiais/com-001/",
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Acompanhamento%20de%20Or%C3%A7amento%20-%20Agentes%20que%20Trabalham.pdf",
       "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Acompanhamento%20de%20Or%C3%A7amento%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
-      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)",
+      "publicado_em": "2026-11-24T13:46:47-03:00",
+      "verificacao_publica": {
+        "em": "2026-11-24T13:46:47-03:00",
+        "urls": [
+          {
+            "url": "https://agentesquetrabalham.onrender.com/materiais/com-001/",
+            "status": 200
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Acompanhamento%20de%20Or%C3%A7amento%20-%20Agentes%20que%20Trabalham.pdf",
+            "status": 200,
+            "sha256_baixado": "21d4bf7222182994211a33de6317fba973d68d58af0f5e7affc91707cec024b9",
+            "sha256_local": "21d4bf7222182994211a33de6317fba973d68d58af0f5e7affc91707cec024b9",
+            "confere": true
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Acompanhamento%20de%20Or%C3%A7amento%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+            "status": 200,
+            "sha256_baixado": "7797852a006f2095acd06af3591c1024d181ef6521b841282b5f049bf33b96d4",
+            "sha256_local": "7797852a006f2095acd06af3591c1024d181ef6521b841282b5f049bf33b96d4",
+            "confere": true
+          }
+        ]
+      },
+      "palavras_direct": [
+        {
+          "palavra": "ORÇAMENTO",
+          "post_id": "18126432928942841"
+        },
+        {
+          "palavra": "RETORNO",
+          "post_id": "18030320594875312"
+        }
+      ]
     },
     {
       "recurso_id": "FIN-001",
@@ -361,12 +441,46 @@
         "preco": "R$ 47",
         "pagina": "produtos/kit-10-agentes/"
       },
-      "status": "local_pronto",
-      "publicado": false,
+      "status": "publicado",
+      "publicado": true,
       "url_publica": "https://agentesquetrabalham.onrender.com/materiais/fin-001/",
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Cobran%C3%A7a%20Sem%20Amea%C3%A7a%20-%20Agentes%20que%20Trabalham.pdf",
       "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Cobran%C3%A7a%20Sem%20Amea%C3%A7a%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
-      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)",
+      "publicado_em": "2026-11-24T13:46:47-03:00",
+      "verificacao_publica": {
+        "em": "2026-11-24T13:46:47-03:00",
+        "urls": [
+          {
+            "url": "https://agentesquetrabalham.onrender.com/materiais/fin-001/",
+            "status": 200
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Cobran%C3%A7a%20Sem%20Amea%C3%A7a%20-%20Agentes%20que%20Trabalham.pdf",
+            "status": 200,
+            "sha256_baixado": "5422fa8fab2f2374a8de7f0577108e007ed5e84bfbcbb39eda1fe12069cfa68a",
+            "sha256_local": "5422fa8fab2f2374a8de7f0577108e007ed5e84bfbcbb39eda1fe12069cfa68a",
+            "confere": true
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Cobran%C3%A7a%20Sem%20Amea%C3%A7a%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+            "status": 200,
+            "sha256_baixado": "fd0360d6e3f9c01e14273e66a917d8487acf45b35352d9c0b27e19e34600e2b9",
+            "sha256_local": "fd0360d6e3f9c01e14273e66a917d8487acf45b35352d9c0b27e19e34600e2b9",
+            "confere": true
+          }
+        ]
+      },
+      "palavras_direct": [
+        {
+          "palavra": "COBRAR",
+          "post_id": "18656775553048486"
+        },
+        {
+          "palavra": "COBRANÇA",
+          "post_id": "18124829003039887"
+        }
+      ]
     },
     {
       "recurso_id": "GES-001",
@@ -433,12 +547,42 @@
         "preco": "R$ 47",
         "pagina": "produtos/kit-10-agentes/"
       },
-      "status": "local_pronto",
-      "publicado": false,
+      "status": "publicado",
+      "publicado": true,
       "url_publica": "https://agentesquetrabalham.onrender.com/materiais/ges-001/",
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Prioridade%20do%20Dia%20-%20Agentes%20que%20Trabalham.pdf",
       "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Prioridade%20do%20Dia%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
-      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)",
+      "publicado_em": "2026-11-24T13:46:47-03:00",
+      "verificacao_publica": {
+        "em": "2026-11-24T13:46:47-03:00",
+        "urls": [
+          {
+            "url": "https://agentesquetrabalham.onrender.com/materiais/ges-001/",
+            "status": 200
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Prioridade%20do%20Dia%20-%20Agentes%20que%20Trabalham.pdf",
+            "status": 200,
+            "sha256_baixado": "00f5586e84682080f25acf0627a6f5fb7634552201e83531a3f78b24abdbb11e",
+            "sha256_local": "00f5586e84682080f25acf0627a6f5fb7634552201e83531a3f78b24abdbb11e",
+            "confere": true
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Prioridade%20do%20Dia%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+            "status": 200,
+            "sha256_baixado": "f568ffabe86d610b63b1ee867199b8394566951c3afdadb4685a80c6f65a6a1e",
+            "sha256_local": "f568ffabe86d610b63b1ee867199b8394566951c3afdadb4685a80c6f65a6a1e",
+            "confere": true
+          }
+        ]
+      },
+      "palavras_direct": [
+        {
+          "palavra": "PRIORIDADE",
+          "post_id": null
+        }
+      ]
     },
     {
       "recurso_id": "GES-002",
@@ -516,12 +660,42 @@
         "preco": "R$ 47",
         "pagina": "produtos/kit-10-agentes/"
       },
-      "status": "local_pronto",
-      "publicado": false,
+      "status": "publicado",
+      "publicado": true,
       "url_publica": "https://agentesquetrabalham.onrender.com/materiais/ges-002/",
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Status%20Semanal%20de%20Projeto%20-%20Agentes%20que%20Trabalham.pdf",
       "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Status%20Semanal%20de%20Projeto%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
-      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)",
+      "publicado_em": "2026-11-24T13:46:47-03:00",
+      "verificacao_publica": {
+        "em": "2026-11-24T13:46:47-03:00",
+        "urls": [
+          {
+            "url": "https://agentesquetrabalham.onrender.com/materiais/ges-002/",
+            "status": 200
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Status%20Semanal%20de%20Projeto%20-%20Agentes%20que%20Trabalham.pdf",
+            "status": 200,
+            "sha256_baixado": "f75c2d6fe54cbcb635ea50da6d0eae99f89ea65d76a65033a33d8c843cb02af1",
+            "sha256_local": "f75c2d6fe54cbcb635ea50da6d0eae99f89ea65d76a65033a33d8c843cb02af1",
+            "confere": true
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Status%20Semanal%20de%20Projeto%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+            "status": 200,
+            "sha256_baixado": "cc232e38aa76cf593448c813640bb7c27e1b76274e34e32475cdef5a6d4e98bd",
+            "sha256_local": "cc232e38aa76cf593448c813640bb7c27e1b76274e34e32475cdef5a6d4e98bd",
+            "confere": true
+          }
+        ]
+      },
+      "palavras_direct": [
+        {
+          "palavra": "STATUS",
+          "post_id": "17977284930169799"
+        }
+      ]
     },
     {
       "recurso_id": "RH-001",
@@ -592,12 +766,46 @@
         "preco": "R$ 47",
         "pagina": "produtos/kit-10-agentes/"
       },
-      "status": "local_pronto",
-      "publicado": false,
+      "status": "publicado",
+      "publicado": true,
       "url_publica": "https://agentesquetrabalham.onrender.com/materiais/rh-001/",
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Integra%C3%A7%C3%A3o%20de%2030%20Dias%20-%20Agentes%20que%20Trabalham.pdf",
       "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Integra%C3%A7%C3%A3o%20de%2030%20Dias%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
-      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)",
+      "publicado_em": "2026-11-24T13:46:47-03:00",
+      "verificacao_publica": {
+        "em": "2026-11-24T13:46:47-03:00",
+        "urls": [
+          {
+            "url": "https://agentesquetrabalham.onrender.com/materiais/rh-001/",
+            "status": 200
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Integra%C3%A7%C3%A3o%20de%2030%20Dias%20-%20Agentes%20que%20Trabalham.pdf",
+            "status": 200,
+            "sha256_baixado": "732f5e1968b8672bbde176706233f25d1cd134e8336a2c9f43112dc798bba00b",
+            "sha256_local": "732f5e1968b8672bbde176706233f25d1cd134e8336a2c9f43112dc798bba00b",
+            "confere": true
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Agente%20Integra%C3%A7%C3%A3o%20de%2030%20Dias%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+            "status": 200,
+            "sha256_baixado": "d9130f5c0e56e3c521987d7ee1801d2b7402af3fbf1c096cf5026c35ba8ddf62",
+            "sha256_local": "d9130f5c0e56e3c521987d7ee1801d2b7402af3fbf1c096cf5026c35ba8ddf62",
+            "confere": true
+          }
+        ]
+      },
+      "palavras_direct": [
+        {
+          "palavra": "NOVATO",
+          "post_id": "18380861065246501"
+        },
+        {
+          "palavra": "INTEGRAR",
+          "post_id": "18135027325690012"
+        }
+      ]
     },
     {
       "recurso_id": "RH-002",
@@ -677,12 +885,46 @@
         "preco": "R$ 47",
         "pagina": "produtos/kit-10-agentes/"
       },
-      "status": "local_pronto",
-      "publicado": false,
+      "status": "publicado",
+      "publicado": true,
       "url_publica": "https://agentesquetrabalham.onrender.com/materiais/rh-002/",
       "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Guia%20de%20Planilha%20de%20Funcion%C3%A1rios%20sem%20Dados%20Sens%C3%ADveis%20-%20Agentes%20que%20Trabalham.pdf",
       "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Guia%20de%20Planilha%20de%20Funcion%C3%A1rios%20sem%20Dados%20Sens%C3%ADveis%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
-      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)"
+      "origem": "mutirão de materiais 24/11/2026 (Claude Opus, esforço high)",
+      "publicado_em": "2026-11-24T13:46:47-03:00",
+      "verificacao_publica": {
+        "em": "2026-11-24T13:46:47-03:00",
+        "urls": [
+          {
+            "url": "https://agentesquetrabalham.onrender.com/materiais/rh-002/",
+            "status": 200
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Guia%20de%20Planilha%20de%20Funcion%C3%A1rios%20sem%20Dados%20Sens%C3%ADveis%20-%20Agentes%20que%20Trabalham.pdf",
+            "status": 200,
+            "sha256_baixado": "b2eed28f4b8b6395908335ae7e3a2c9ccf44148426a8588cc92fd11e651e7cf6",
+            "sha256_local": "b2eed28f4b8b6395908335ae7e3a2c9ccf44148426a8588cc92fd11e651e7cf6",
+            "confere": true
+          },
+          {
+            "url": "https://agentesquetrabalham.onrender.com/arquivos/Guia%20de%20Planilha%20de%20Funcion%C3%A1rios%20sem%20Dados%20Sens%C3%ADveis%20-%20Agentes%20que%20Trabalham%20-%20Pedido%20para%20Copiar.txt",
+            "status": 200,
+            "sha256_baixado": "a36575a5a8bb42070c75f6c9c3b8db0064b1ca53098bded8462fa8c8308e6512",
+            "sha256_local": "a36575a5a8bb42070c75f6c9c3b8db0064b1ca53098bded8462fa8c8308e6512",
+            "confere": true
+          }
+        ]
+      },
+      "palavras_direct": [
+        {
+          "palavra": "PLANILHA",
+          "post_id": "18076781768770212"
+        },
+        {
+          "palavra": "DADOS",
+          "post_id": "18061329407811871"
+        }
+      ]
     }
   ]
 }
