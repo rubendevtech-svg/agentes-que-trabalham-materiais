@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-24T23:12:59",
+  "gerado_em": "2026-11-25T00:46:33",
   "recursos": [
     {
       "recurso_id": "ATA-001",
@@ -1207,6 +1207,181 @@
         "mantenedor": "Anthropic",
         "licenca": "Apache 2.0",
         "planos": "Free, Pro, Max, Ultra, Team e Enterprise segundo a central de ajuda"
+      },
+      "testado_pelo_escritorio": false
+    },
+    {
+      "recurso_id": "AGT-CHROME-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Administrativo",
+      "titulo": "Claude in Chrome: o Claude que mexe no navegador",
+      "versao": "1",
+      "data_versao": "2026-11-25",
+      "pagina": "materiais/agt-chrome-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Claude in Chrome - Anthropic.pdf",
+          "paginas": 5,
+          "bytes": 261138,
+          "sha256": "3052fbd6f4058a0fae4b5d0d702088da809f281a81ff1bbb4fe837f9360340ba",
+          "gerado_em": "2026-11-25T00:46:31",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Claude in Chrome - Pedidos de Exemplo - Agentes que Trabalham.txt",
+          "bytes": 3477,
+          "sha256": "09b2098a29d0ffb2fa1f6a04cb373d8fca11e2d651a6126aab970498b03a321d"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/agt-chrome-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-25/reel-12h-animado/",
+        "contas/agentesquetrabalham/2026-11-25/carrossel-13h/"
+      ],
+      "agente_kit_pago_nao_copiado": null,
+      "evidencias": [],
+      "posts": [
+        {
+          "post_id": null,
+          "tipo": "reel",
+          "palavra": "NAVEGADOR"
+        },
+        {
+          "post_id": null,
+          "tipo": "carrossel",
+          "palavra": "CHROME"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/agt-chrome-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Claude%20in%20Chrome%20-%20Anthropic.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Claude%20in%20Chrome%20-%20Pedidos%20de%20Exemplo%20-%20Agentes%20que%20Trabalham.txt",
+      "origem": "produção diária 25/11/2026 · Reel 12h e carrossel 13h (Claude Opus, esforço high)",
+      "fontes_oficiais": [
+        {
+          "nome": "Primeiros passos com o Claude in Chrome (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+          "nota": "Planos, navegador suportado e instalação."
+        },
+        {
+          "nome": "Extensão na Chrome Web Store",
+          "url": "https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn"
+        },
+        {
+          "nome": "Usar o Claude in Chrome com segurança (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely",
+          "nota": "O que ele nunca faz e os riscos de páginas com instruções escondidas."
+        },
+        {
+          "nome": "Guia de permissões (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide",
+          "nota": "Modos de aprovação: Manual, Auto e Skip."
+        },
+        {
+          "nome": "Página do produto",
+          "url": "https://claude.com/chrome"
+        }
+      ],
+      "recurso_terceiro": {
+        "tipo": "extensão (agente no navegador)",
+        "nome": "Claude in Chrome",
+        "mantenedor": "Anthropic",
+        "planos": "planos pagos do Claude (Pro, Max, Ultra, Team e Enterprise), só no Google Chrome do computador"
+      },
+      "testado_pelo_escritorio": false
+    },
+    {
+      "recurso_id": "CON-CANVA-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Marketing",
+      "titulo": "Conector do Canva no Claude",
+      "versao": "1",
+      "data_versao": "2026-11-25",
+      "pagina": "materiais/con-canva-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Conector Canva - Canva.pdf",
+          "paginas": 5,
+          "bytes": 201537,
+          "sha256": "2116089b87c31d62ff52f17e1cce583cb1924309d042b057c0f906eeffa3fef7",
+          "gerado_em": "2026-11-25T00:46:33",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Conector Canva - Pedidos de Exemplo - Agentes que Trabalham.txt",
+          "bytes": 2966,
+          "sha256": "ebaab9be573b1d4e43ae30407098e42342d5a3e67fae4d91757ae2507366d2be"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/con-canva-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/2026-11-25/carrossel-20h/"
+      ],
+      "agente_kit_pago_nao_copiado": null,
+      "evidencias": [],
+      "posts": [
+        {
+          "post_id": null,
+          "tipo": "carrossel",
+          "palavra": "CANVA"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/con-canva-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Conector%20Canva%20-%20Canva.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Conector%20Canva%20-%20Pedidos%20de%20Exemplo%20-%20Agentes%20que%20Trabalham.txt",
+      "origem": "produção diária 25/11/2026 · carrossel 20h (Claude Opus, esforço high)",
+      "fontes_oficiais": [
+        {
+          "nome": "Conector Canva no diretório do Claude (feito pelo Canva)",
+          "url": "https://claude.com/connectors/canva",
+          "nota": "Lista as ferramentas do conector: criar design, procurar, exportar, pastas e comentários."
+        },
+        {
+          "nome": "Como adicionar e ligar conectores (central de ajuda do Claude, em inglês)",
+          "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities"
+        },
+        {
+          "nome": "Conectar o Canva a um assistente de IA (central de ajuda do Canva)",
+          "url": "https://www.canva.com/help/mcp-agent-setup/",
+          "nota": "Página do Canva com requisitos de plano. Não conseguimos abri-la pela automação em 25/11/2026: confira no navegador."
+        }
+      ],
+      "recurso_terceiro": {
+        "tipo": "conector",
+        "nome": "Canva",
+        "mantenedor": "Canva (Made by Canva no diretório do Claude, verificado pela Anthropic)",
+        "planos": "não listados na página do conector no Claude; confira na sua conta Canva"
       },
       "testado_pelo_escritorio": false
     }

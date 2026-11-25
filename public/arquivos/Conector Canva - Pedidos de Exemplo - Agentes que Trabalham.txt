@@ -1,0 +1,48 @@
+﻿Conector do Canva no Claude · Agentes que Trabalham · versão 1 · 25/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/con-canva-001/
+
+LINKS OFICIAIS
+- Conector Canva no diretório do Claude (feito pelo Canva): https://claude.com/connectors/canva
+- Como adicionar e ligar conectores (central de ajuda do Claude, em inglês): https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities
+- Conectar o Canva a um assistente de IA (central de ajuda do Canva): https://www.canva.com/help/mcp-agent-setup/
+
+PASSO A PASSO
+1. No Claude (no site ou no aplicativo de computador), abra Personalizar (Customize) e depois Conectores (Connectors). Os nomes podem aparecer em inglês.
+2. Clique no + ao lado de Conectores, procure Canva e confira que aparece Made by Canva. A página claude.com/connectors/canva também tem o botão Add to Claude.
+3. Clique em Conectar (Connect), faça o login na página do Canva e autorize o acesso.
+4. Se o conector não aparecer no plano Team ou Enterprise, fale com o responsável pela conta do Claude.
+5. Numa conversa, clique no + no canto de baixo (ou digite /), passe o mouse em Conectores e ligue o Canva.
+6. Cole um dos pedidos e troque o que está entre colchetes.
+7. Abra no Canva o design que ele criou, ajuste foto, logo e texto, e só então exporte e poste.
+
+PEDIDOS DE EXEMPLO PARA COLAR NO CLAUDE DEPOIS DE LIGAR O CONECTOR DO CANVA (troque o que está entre colchetes)
+
+Pedido 1 · Opções de post da promoção
+Crie no meu Canva três opções de post quadrado para Instagram anunciando: [20% de desconto em toda a loja nesta sexta, dd/mm]. Use exatamente este texto: [texto da promoção]. Não invente preço nem data. No fim, me mande o link de cada opção.
+
+Pedido 2 · Achar um design
+Procure no meu Canva os designs com [Black Friday] no nome e me liste com o link de cada um.
+
+Pedido 3 · Exportar
+Exporte o design [nome do design] em PDF e me mande o link do arquivo.
+
+O QUE TER EM MÃOS
+- Uma conta do Claude, no site ou no aplicativo de computador
+- O login da conta Canva onde ficam os seus designs
+- O texto da promoção já decidido: o que é, o desconto e a data
+- No plano Team ou Enterprise do Claude: o responsável pela conta pode precisar liberar o conector
+
+NÃO FAÇA
+- Não digite a senha do Canva no chat: o login é na página do próprio Canva
+- Não poste o design sem abrir e conferir no Canva
+- Não deixe o Claude inventar preço, desconto ou data: escreva você
+- Não ligue o conector numa conversa em que não vai usar
+
+CONFERÊNCIA ANTES DE USAR
+[ ] O conector mostra Made by Canva?
+[ ] Preço, desconto e data estão escritos por você, sem invenção?
+[ ] Você abriu o design no Canva antes de exportar?
+[ ] Foto, logo e cores são os da sua marca?
+[ ] Quem vai postar é você, depois de conferir?
+
+O design que sai é um rascunho. Abra no Canva e confira preço, data, ortografia e logo antes de postar. Quem publica é você.

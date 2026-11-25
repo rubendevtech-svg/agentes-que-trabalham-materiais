@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Claude in Chrome: o Claude que mexe no navegador (AGT-CHROME-001) · Material gratuito · Agentes que Trabalham</title>
+<meta name="description" content="Claude in Chrome: extensão oficial da Anthropic que lê, clica e navega no Chrome. Links oficiais, instalação, pedidos de exemplo, limites e regras de segurança.">
+<meta name="theme-color" content="#050706">
+<link rel="icon" href="../../assets/img/favicon.png" type="image/png">
+<link rel="preload" href="../../assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../../assets/css/site.css">
+<link rel="canonical" href="https://agentesquetrabalham.onrender.com/materiais/agt-chrome-001/">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="assin" href="../../" aria-label="Agentes que Trabalham, início">
+      <img src="../../assets/img/logo-robozinho.png" width="40" height="40" alt="">
+      <span>agentesquetrabalham</span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="../../#biblioteca">Biblioteca</a>
+      <a class="nav-sec" href="#proximo-passo">Kit 10</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" aria-labelledby="titulo-pagina">
+    <img class="hero__img" src="../../assets/img/obj-notebook.webp" width="960" height="1200" alt="" fetchpriority="high">
+    <div class="wrap">
+      <nav class="trilha" aria-label="Você está em">
+        <ol>
+          <li><a href="../../#biblioteca">Biblioteca</a></li>
+          <li><span aria-current="page">AGT-CHROME-001</span></li>
+        </ol>
+      </nav>
+      <p class="rotulo"><span class="ponto" aria-hidden="true"></span>Administrativo · gratuito · versão 1</p>
+      <h1 class="titulo" id="titulo-pagina">
+        <span class="ln">O Claude que mexe</span>
+        <span class="ln s">no seu navegador.</span>
+      </h1>
+      <p class="apoio">Passo a passo para instalar a extensão oficial Claude in Chrome, o que ela faz e o que ela nunca faz, e pedidos de exemplo para comparar preço em lojas, resumir uma página e preencher um formulário parando antes de enviar.</p>
+      <div class="hero__acoes">
+        <a class="btn btn--sinal" href="../../arquivos/Claude in Chrome - Anthropic.pdf" download type="application/pdf">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></span>
+          <span class="txt">Baixar o guia<small>PDF · 5 páginas · 255 KB</small></span>
+        </a>
+        <a class="btn" href="#pedido">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg></span>
+          <span class="txt">Copiar os pedidos<small>exemplos para colar no painel do Claude</small></span>
+        </a>
+      </div>
+      <p class="hero__meta"><span>Versão 1 · atualizado em 25/11/2026</span><span>Leitura nesta página, sem cadastro</span></p>
+    </div>
+  </section>
+
+  <nav class="indice" aria-label="Nesta página">
+    <div class="wrap">
+      <ol>
+        <li><a href="#links-oficiais">Links oficiais</a></li>
+        <li><a href="#o-que-mandar">O que ter em mãos</a></li>
+        <li><a href="#pedido">Pedidos</a></li>
+        <li><a href="#como-usar">Como usar</a></li>
+        <li><a href="#exemplo">Exemplo</a></li>
+        <li><a href="#checklist">Checklist</a></li>
+      </ol>
+    </div>
+  </nav>
+
+  <section class="secao" id="links-oficiais" aria-labelledby="titulo-links">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Fonte oficial</p>
+        <h2 class="h2" id="titulo-links">Links <span class="s">oficiais</span></h2>
+        <p>Páginas de quem fez o recurso. Os nomes de menus e botões vêm de lá e podem aparecer traduzidos no seu Claude.</p>
+      </div>
+      <ul class="checklist links-skill" aria-label="Links oficiais">
+        <li><a href="https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome" rel="noopener noreferrer">Primeiros passos com o Claude in Chrome (central de ajuda, em inglês)</a><br><span class="mudo">Planos, navegador suportado e instalação.</span></li>
+        <li><a href="https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn" rel="noopener noreferrer">Extensão na Chrome Web Store</a></li>
+        <li><a href="https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely" rel="noopener noreferrer">Usar o Claude in Chrome com segurança (central de ajuda, em inglês)</a><br><span class="mudo">O que ele nunca faz e os riscos de páginas com instruções escondidas.</span></li>
+        <li><a href="https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide" rel="noopener noreferrer">Guia de permissões (central de ajuda, em inglês)</a><br><span class="mudo">Modos de aprovação: Manual, Auto e Skip.</span></li>
+        <li><a href="https://claude.com/chrome" rel="noopener noreferrer">Página do produto</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="o-que-mandar" aria-labelledby="titulo-mandar">
+    <div class="wrap duas">
+      <div>
+        <div class="secao__cab">
+          <p class="rotulo">Antes de começar</p>
+          <h2 class="h2" id="titulo-mandar">O que <span class="s">ter em mãos.</span></h2>
+          <p>A extensão usa a sua conta do Claude e roda no Chrome do seu computador.</p>
+        </div>
+        <ul class="checklist" aria-label="O que ter em mãos">
+        <li>Google Chrome no computador (não funciona em outros navegadores, nem no celular)</li>
+        <li>Uma conta paga do Claude: Pro, Max, Ultra, Team ou Enterprise</li>
+        <li>No plano Team ou Enterprise: o administrador pode ter desligado a extensão ou limitado os sites</li>
+        <li>Os links das páginas que você quer que ele abra, quando já souber quais são</li>
+        </ul>
+      </div>
+      <article class="bloco" aria-labelledby="titulo-nao-mandar">
+        <p class="rotulo">Fica de fora</p>
+        <h3 class="h3" id="titulo-nao-mandar">Não faça</h3>
+        <ul class="checklist">
+        <li>Não use em banco, conta de investimento ou página com dado de cartão</li>
+        <li>Não peça para seguir instruções que estão dentro de e-mails ou páginas: uma página pode esconder ordens para ele</li>
+        <li>Não deixe aprovado de vez em site que você não conhece</li>
+        <li>Não aprove envio de formulário sem ler o que ele preencheu</li>
+        </ul>
+        <p class="rotulo" style="margin-top:20px">O que a extensão faz</p>
+        <ul class="checklist">
+        <li>Lê a página aberta, clica, digita e navega entre sites</li>
+        <li>Trabalha em várias abas ao mesmo tempo (você arrasta as abas para o grupo do Claude)</li>
+        <li>Preenche formulários; para dado sensível, ele pede sua permissão antes</li>
+        <li>Fica num painel do lado da página enquanto você navega</li>
+        <li>Pode repetir uma tarefa no horário que você marcar (tarefa agendada) e guardar pedidos como atalho</li>
+        </ul>
+        <p class="rotulo" style="margin-top:20px">O que ela não faz</p>
+        <ul class="checklist">
+        <li>Não compra e não faz pagamento ou transação financeira, em nenhum modo</li>
+        <li>Não cria conta em site e não lida com dado de cartão ou documento</li>
+        <li>Não resolve captcha</li>
+        <li>Não segue instruções escritas dentro de e-mails ou páginas</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="secao" id="pedido" aria-labelledby="titulo-pedido">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Pedidos de exemplo</p>
+        <h2 class="h2" id="titulo-pedido">Copie, preencha <span class="s">e confira.</span></h2>
+        <p>Pedidos de exemplo escritos pelo escritório para colar no painel da extensão. Não foram testados por nós. Troque o que está entre colchetes pelos seus dados. Também em <a href="../../arquivos/Claude in Chrome - Pedidos de Exemplo - Agentes que Trabalham.txt" download>arquivo de texto editável</a>.</p>
+      </div>
+      <div class="pedido">
+        <div class="pedido__barra">
+          <span>pedido</span>
+          <button type="button" class="copiar" data-copiar="pedido-texto" data-aviso="aviso-copia">
+            <span class="ic" aria-hidden="true"><svg class="cp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><svg class="ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+            <span class="rotulo-copiar">Copiar pedidos</span>
+          </button>
+        </div>
+        <pre id="pedido-texto" tabindex="0" aria-label="Texto do pedido">Pedido 1 · Comparar preço
+Abra estas lojas: <mark>[link 1]</mark>, <mark>[link 2]</mark>, <mark>[link 3]</mark>. Em cada uma, procure <mark>[resma de papel A4, 500 folhas]</mark>. Monte uma tabela com loja, preço, prazo de entrega (se aparecer na página) e o link do produto. Não coloque nada no carrinho.
+
+Pedido 2 · Resumir uma página
+Leia esta página e me diga, em 5 linhas, <mark>[quais são os horários e as condições de entrega do fornecedor]</mark>. Mostre o trecho da página de onde tirou cada informação.
+
+Pedido 3 · Preencher e parar
+Preencha o formulário de contato desta página com: nome <mark>[seu nome]</mark>, e-mail <mark>[seu e-mail]</mark>, mensagem <mark>[sua mensagem]</mark>. Pare antes de enviar e me mostre o que preencheu.</pre>
+      </div>
+      <p class="aviso-copia" id="aviso-copia" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="secao" id="como-usar" aria-labelledby="titulo-como">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Passo a passo</p>
+        <h2 class="h2" id="titulo-como">Como <span class="s">usar</span></h2>
+      </div>
+      <ol class="etapas">
+        <li><span class="num" aria-hidden="true">01</span><p>Abra o Google Chrome no computador.</p></li>
+        <li><span class="num" aria-hidden="true">02</span><p>Entre na página da extensão na Chrome Web Store (link oficial acima) e clique em Adicionar ao Chrome (Add to Chrome).</p></li>
+        <li><span class="num" aria-hidden="true">03</span><p>Quando pedir, entre com a sua conta do Claude.</p></li>
+        <li><span class="num" aria-hidden="true">04</span><p>Fixe a extensão: clique no ícone de quebra-cabeça e depois no alfinete ao lado de Claude.</p></li>
+        <li><span class="num" aria-hidden="true">05</span><p>Dê as permissões que a extensão pedir.</p></li>
+        <li><span class="num" aria-hidden="true">06</span><p>Clique no ícone do Claude: o painel abre do lado da página e fica aberto enquanto você navega.</p></li>
+        <li><span class="num" aria-hidden="true">07</span><p>Escolha o modo de aprovação. No Manual, ele pede sua aprovação antes de cada ação. Para começar, é o mais seguro.</p></li>
+        <li><span class="num" aria-hidden="true">08</span><p>Cole um dos pedidos, troque o que está entre colchetes e acompanhe o que ele faz. Confira o resultado na página de origem.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="secao" id="exemplo" aria-labelledby="titulo-exemplo">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Exemplo</p>
+        <h2 class="h2" id="titulo-exemplo">O que conferir <span class="s">no resultado</span></h2>
+      </div>
+      <div class="exemplo">
+        <span class="selo-ex">Exemplo ilustrativo · não é saída de teste</span>
+        <blockquote class="entrada">Situação inventada para mostrar o formato: um escritório quer comparar o preço da resma de papel A4 em três lojas fictícias.</blockquote>
+        <div class="tabela-rolagem" role="region" aria-labelledby="cap-exemplo" tabindex="0">
+          <table>
+            <caption id="cap-exemplo">Trechos do resultado, um por linha</caption>
+            <thead><tr><th scope="col">Parte</th><th scope="col">Exemplo</th><th scope="col">O que conferir</th></tr></thead>
+            <tbody>
+              <tr><td data-rotulo="Etapa"><span class="cls">Papelaria A</span></td><td data-rotulo="Exemplo">R$ 31,90 · link do produto</td><td data-rotulo="O que conferir">Abra o link e confira o preço na própria loja: pode ter mudado.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">Loja B</span></td><td data-rotulo="Exemplo">R$ 28,50 · link do produto · o mais barato</td><td data-rotulo="O que conferir">Confira frete e prazo antes de decidir. A compra é sempre sua.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">Mega C</span></td><td data-rotulo="Exemplo">R$ 33,40 · link do produto</td><td data-rotulo="O que conferir">Se uma loja pedir login ou captcha, ele não passa: faça você.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="alerta" style="margin-top:16px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17.5v.01"/></svg>
+        <div>
+          <p><strong>Como foi testado.</strong> Não testado pelo escritório. Passos, planos e regras conferidos nas páginas oficiais da Anthropic em 25/11/2026. As lojas e os preços acima foram inventados para mostrar o formato e não são resposta real do Claude.</p>
+          <p style="margin-top:8px"><strong>Limite.</strong> Só no Google Chrome do computador e só nos planos pagos. A própria Anthropic diz que o risco não é zero: uma página pode esconder instruções para desviar o Claude. Ela recomenda não usar em sites sensíveis, como banco, investimentos, contratos e saúde. As ações no navegador usam o limite do seu plano.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="checklist" aria-labelledby="titulo-checklist">
+    <div class="wrap duas">
+      <div>
+        <div class="secao__cab">
+          <p class="rotulo">Antes de usar</p>
+          <h2 class="h2" id="titulo-checklist">Checklist <span class="s">final</span></h2>
+          <p>As marcações ficam só nesta tela e somem ao recarregar.</p>
+        </div>
+        <div class="alerta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17.5v.01"/></svg>
+          <p><strong>O Claude pode errar ao ler uma página.</strong> Confira o preço e o link na própria loja. Use em sites que você conhece e prefira o modo em que ele pede aprovação antes de cada ação.</p>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li><label><input type="checkbox"> Você está no Google Chrome do computador, com plano pago do Claude?</label></li>
+        <li><label><input type="checkbox"> O modo de aprovação está no Manual enquanto você aprende?</label></li>
+        <li><label><input type="checkbox"> O preço e o link batem com a página da loja?</label></li>
+        <li><label><input type="checkbox"> Você leu o formulário antes de mandar enviar?</label></li>
+        <li><label><input type="checkbox"> O site é um site que você conhece e não é de banco?</label></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="proximo-passo" aria-labelledby="titulo-proximo">
+    <div class="wrap duas">
+      <article class="bloco" aria-labelledby="titulo-proximo">
+        <p class="rotulo">Próximo passo opcional</p>
+        <h2 class="h3" id="titulo-proximo">Kit 10 Agentes de IA para Pequenas Empresas</h2>
+        <p>A extensão é da Anthropic e não tem relação com o Kit 10. O Kit é outra coisa e não depende dela: traz instruções prontas para tarefas como cobrança, acompanhamento de orçamento e status semanal de projeto. São dez agentes em texto para colar no seu chat de IA. Este guia é gratuito e funciona sem a compra.</p>
+        <div class="preco"><strong>R$ 47</strong><span>pagamento único</span></div>
+        <a class="btn btn--sinal" href="../../produtos/kit-10-agentes/">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          <span class="txt">Quero saber mais</span>
+        </a>
+      </article>
+      <ul class="ficha" aria-label="Sobre este material">
+        <li><span>material</span><span>AGT-CHROME-001 · versão 1</span></li>
+        <li><span>autoria</span><span>Agentes que Trabalham</span></li>
+        <li><span>atualizado</span><span>25/11/2026</span></li>
+        <li><span>exemplo</span><span>ilustrativo, montado pelo escritório</span></li>
+        <li><span>arquivos</span><span>guia PDF · links oficiais · pedidos em texto editável</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <p><a href="../../#biblioteca">← Voltar à biblioteca</a></p>
+    <p><a href="https://www.instagram.com/agentesquetrabalham/" rel="noopener">@agentesquetrabalham no Instagram</a></p>
+  </div>
+</footer>
+
+<script src="../../assets/js/recurso.js" defer></script>
+</body>
+</html>

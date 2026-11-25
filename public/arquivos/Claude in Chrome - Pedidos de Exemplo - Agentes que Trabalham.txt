@@ -1,0 +1,51 @@
+﻿Claude in Chrome: o Claude que mexe no navegador · Agentes que Trabalham · versão 1 · 25/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/agt-chrome-001/
+
+LINKS OFICIAIS
+- Primeiros passos com o Claude in Chrome (central de ajuda, em inglês): https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome
+- Extensão na Chrome Web Store: https://chromewebstore.google.com/detail/claude/fcoeoabgfenejglbffodgkkbkcdhcgfn
+- Usar o Claude in Chrome com segurança (central de ajuda, em inglês): https://support.claude.com/en/articles/12902428-using-claude-in-chrome-safely
+- Guia de permissões (central de ajuda, em inglês): https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide
+- Página do produto: https://claude.com/chrome
+
+PASSO A PASSO
+1. Abra o Google Chrome no computador.
+2. Entre na página da extensão na Chrome Web Store (link oficial acima) e clique em Adicionar ao Chrome (Add to Chrome).
+3. Quando pedir, entre com a sua conta do Claude.
+4. Fixe a extensão: clique no ícone de quebra-cabeça e depois no alfinete ao lado de Claude.
+5. Dê as permissões que a extensão pedir.
+6. Clique no ícone do Claude: o painel abre do lado da página e fica aberto enquanto você navega.
+7. Escolha o modo de aprovação. No Manual, ele pede sua aprovação antes de cada ação. Para começar, é o mais seguro.
+8. Cole um dos pedidos, troque o que está entre colchetes e acompanhe o que ele faz. Confira o resultado na página de origem.
+
+PEDIDOS DE EXEMPLO PARA COLAR NO PAINEL DO CLAUDE IN CHROME (troque o que está entre colchetes)
+
+Pedido 1 · Comparar preço
+Abra estas lojas: [link 1], [link 2], [link 3]. Em cada uma, procure [resma de papel A4, 500 folhas]. Monte uma tabela com loja, preço, prazo de entrega (se aparecer na página) e o link do produto. Não coloque nada no carrinho.
+
+Pedido 2 · Resumir uma página
+Leia esta página e me diga, em 5 linhas, [quais são os horários e as condições de entrega do fornecedor]. Mostre o trecho da página de onde tirou cada informação.
+
+Pedido 3 · Preencher e parar
+Preencha o formulário de contato desta página com: nome [seu nome], e-mail [seu e-mail], mensagem [sua mensagem]. Pare antes de enviar e me mostre o que preencheu.
+
+O QUE TER EM MÃOS
+- Google Chrome no computador (não funciona em outros navegadores, nem no celular)
+- Uma conta paga do Claude: Pro, Max, Ultra, Team ou Enterprise
+- No plano Team ou Enterprise: o administrador pode ter desligado a extensão ou limitado os sites
+- Os links das páginas que você quer que ele abra, quando já souber quais são
+
+NÃO FAÇA
+- Não use em banco, conta de investimento ou página com dado de cartão
+- Não peça para seguir instruções que estão dentro de e-mails ou páginas: uma página pode esconder ordens para ele
+- Não deixe aprovado de vez em site que você não conhece
+- Não aprove envio de formulário sem ler o que ele preencheu
+
+CONFERÊNCIA ANTES DE USAR
+[ ] Você está no Google Chrome do computador, com plano pago do Claude?
+[ ] O modo de aprovação está no Manual enquanto você aprende?
+[ ] O preço e o link batem com a página da loja?
+[ ] Você leu o formulário antes de mandar enviar?
+[ ] O site é um site que você conhece e não é de banco?
+
+O Claude pode errar ao ler uma página. Confira o preço e o link na própria loja. Use em sites que você conhece e prefira o modo em que ele pede aprovação antes de cada ação.

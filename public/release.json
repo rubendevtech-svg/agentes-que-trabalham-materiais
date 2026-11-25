@@ -66,6 +66,26 @@
       "sha256": "9391c14a22a01914cbc4de11fc37131410591a0588b2a80a93052c948fa45dce"
     },
     {
+      "path": "arquivos/Claude in Chrome - Anthropic.pdf",
+      "bytes": 261138,
+      "sha256": "3052fbd6f4058a0fae4b5d0d702088da809f281a81ff1bbb4fe837f9360340ba"
+    },
+    {
+      "path": "arquivos/Claude in Chrome - Pedidos de Exemplo - Agentes que Trabalham.txt",
+      "bytes": 3477,
+      "sha256": "09b2098a29d0ffb2fa1f6a04cb373d8fca11e2d651a6126aab970498b03a321d"
+    },
+    {
+      "path": "arquivos/Conector Canva - Canva.pdf",
+      "bytes": 201537,
+      "sha256": "2116089b87c31d62ff52f17e1cce583cb1924309d042b057c0f906eeffa3fef7"
+    },
+    {
+      "path": "arquivos/Conector Canva - Pedidos de Exemplo - Agentes que Trabalham.txt",
+      "bytes": 2966,
+      "sha256": "ebaab9be573b1d4e43ae30407098e42342d5a3e67fae4d91757ae2507366d2be"
+    },
+    {
       "path": "arquivos/Conectores Google Drive Gmail e Agenda no Claude - Agentes que Trabalham.pdf",
       "bytes": 206902,
       "sha256": "06d57b382ad0b45c3c089336980eee11e5b75cbbee83360b13c4a87cfb8edb31"
@@ -262,13 +282,13 @@
     },
     {
       "path": "data/recursos.json",
-      "bytes": 52450,
-      "sha256": "06003de6f8d99463c82d116267bc5370c05b17b4e9c50aaad5ad9cb469cce39c"
+      "bytes": 59728,
+      "sha256": "ec8367d1c634e5ee9f7cc13b05655621aefb9b971d2be4a11ad8509c98753a42"
     },
     {
       "path": "index.html",
-      "bytes": 22505,
-      "sha256": "64f13462d150152d0431ba94a5695c7082a0dcb864f7f7feb4005dcde20ccd09"
+      "bytes": 25205,
+      "sha256": "a562703cb30001d8ccdae7900eeca4a9262ab5a0302b6e699d20c5a621dd4325"
     },
     {
       "path": "LICENCAS.md",
@@ -281,6 +301,11 @@
       "sha256": "7b330269b4760ee468add06ad9188f370e9bf2ee0875772c971f34a87d4d5e63"
     },
     {
+      "path": "materiais/agt-chrome-001/index.html",
+      "bytes": 18260,
+      "sha256": "00e4446ab4c2e4ce2d94bdf1b099fc1301ca516edf4cef7c26e17b64ded9e5f3"
+    },
+    {
       "path": "materiais/ata-001/index.html",
       "bytes": 18466,
       "sha256": "60bba654289104e79b672df1712b8a1ca27bc2260da4243d582c1866e766cde9"
@@ -289,6 +314,11 @@
       "path": "materiais/com-001/index.html",
       "bytes": 17341,
       "sha256": "93c5dbefdac248e643d44db65ec850a6a5604b377e4daf4016fda93ddfe6d02b"
+    },
+    {
+      "path": "materiais/con-canva-001/index.html",
+      "bytes": 17469,
+      "sha256": "0c9e82c3e928cd87218f5fdb15a94e18151cc2c0af9af25ca3e8ee2033534f53"
     },
     {
       "path": "materiais/con-gws-001/index.html",
