@@ -1,0 +1,48 @@
+﻿Plugin Finance: extrato contra planilha · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/plg-fin-001/
+
+LINKS OFICIAIS
+- Página oficial do plugin Finance (claude.com): https://claude.com/plugins/finance
+- Código e guia do plugin no GitHub (Anthropic, licença Apache 2.0): https://github.com/anthropics/knowledge-work-plugins/tree/main/finance
+- Como usar plugins no Claude (central de ajuda, em inglês): https://support.claude.com/en/articles/13837440-use-plugins-in-claude
+
+PASSO A PASSO
+1. Confira o plano. Plugins são dos planos pagos (Pro, Max, Ultra, Team e Enterprise).
+2. No Claude (no site ou na aba Chat do aplicativo de computador), abra Customize na barra lateral esquerda, depois a aba Plugins e a aba Discover. Os nomes podem aparecer traduzidos.
+3. Escolha Finance, confira o selo Anthropic verified e clique em Add. No Cowork, abra a aba Cowork antes de Customize. A página oficial do plugin também tem o botão Install in Cowork.
+4. Numa conversa nova, digite / ou clique em + para ver as skills do plugin e escolha reconciliation. No Cowork, também dá para digitar /finance:reconciliation.
+5. Anexe o extrato e a planilha do mesmo período e cole o Pedido 1, trocando o que está entre colchetes.
+6. Confira cada diferença no extrato original antes de lançar ou corrigir qualquer coisa. Se for para relatório ou declaração, leve para quem entende de finanças revisar.
+
+PEDIDOS DE EXEMPLO PARA COLAR NO CLAUDE DEPOIS DE ADICIONAR O PLUGIN (troque o que está entre colchetes)
+
+Pedido 1 · conciliação do mês
+Compare o extrato do banco [nome do banco] com a minha planilha de lançamentos de [mês/ano], que estão nos dois arquivos anexados. Liste cada diferença numa tabela: data, descrição, valor, onde aparece (só no banco ou só na planilha) e um motivo provável. Não corrija nada nos arquivos. No fim, mostre o saldo final de cada um e a diferença total.
+
+Pedido 2 · entender uma diferença
+Sobre a diferença de [R$ valor] em [data]: mostre em qual linha do extrato e da planilha ela aparece e o que eu preciso conferir para saber se é tarifa, lançamento duplicado ou erro de digitação.
+
+Pedido 3 · lista para quem revisa
+Monte uma lista curta das diferenças que ainda não têm explicação, para eu levar ao [contador ou responsável pelo financeiro]. Não sugira lançamento contábil.
+
+O QUE TER EM MÃOS
+- Um plano pago do Claude: plugins são dos planos Pro, Max, Ultra, Team e Enterprise
+- O extrato do banco do período, em arquivo ou colado como texto
+- A planilha (ou o razão) do mesmo período, com data, descrição e valor de cada lançamento
+- O saldo final que o banco mostra e o saldo final da planilha
+- No Team ou Enterprise: o administrador pode ter limitado quais plugins você adiciona
+
+NÃO MANDE
+- Senha do banco, token ou código de acesso: nunca
+- Número completo de conta e agência, quando não fizer falta
+- CPF e dados pessoais de clientes ou funcionários que aparecem no extrato, quando der para tirar
+- Meses que não são do período que você quer conferir
+
+CONFERÊNCIA ANTES DE USAR
+[ ] Os dois arquivos são do mesmo período e da mesma conta?
+[ ] Você tirou senha, token e dados pessoais que não precisavam ir?
+[ ] Cada diferença apontada aparece mesmo no extrato original?
+[ ] A soma das diferenças fecha com a diferença entre os saldos?
+[ ] Alguém que entende de finanças revisou antes de virar relatório?
+
+Ele aponta, não decide. A lista de diferenças é um ponto de partida. Você confere no extrato original e quem entende de finanças revisa antes de virar relatório.

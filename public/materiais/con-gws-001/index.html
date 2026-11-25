@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conectores Google Drive, Gmail e Agenda no Claude (CON-GWS-001) · Material gratuito · Agentes que Trabalham</title>
+<meta name="description" content="Como conectar Google Drive, Gmail e Google Agenda ao Claude: links oficiais, passo a passo, pedidos de exemplo e limites. Conectores feitos pelo Google.">
+<meta name="theme-color" content="#050706">
+<link rel="icon" href="../../assets/img/favicon.png" type="image/png">
+<link rel="preload" href="../../assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../../assets/css/site.css">
+<link rel="canonical" href="https://agentesquetrabalham.onrender.com/materiais/con-gws-001/">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="assin" href="../../" aria-label="Agentes que Trabalham, início">
+      <img src="../../assets/img/logo-robozinho.png" width="40" height="40" alt="">
+      <span>agentesquetrabalham</span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="../../#biblioteca">Biblioteca</a>
+      <a class="nav-sec" href="#proximo-passo">Kit 10</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" aria-labelledby="titulo-pagina">
+    <img class="hero__img" src="../../assets/img/obj-cubos-fluxo.webp" width="960" height="1200" alt="" fetchpriority="high">
+    <div class="wrap">
+      <nav class="trilha" aria-label="Você está em">
+        <ol>
+          <li><a href="../../#biblioteca">Biblioteca</a></li>
+          <li><span aria-current="page">CON-GWS-001</span></li>
+        </ol>
+      </nav>
+      <p class="rotulo"><span class="ponto" aria-hidden="true"></span>Administrativo · gratuito · versão 1</p>
+      <h1 class="titulo" id="titulo-pagina">
+        <span class="ln">Drive, Gmail e Agenda</span>
+        <span class="ln s">dentro do Claude.</span>
+      </h1>
+      <p class="apoio">Passo a passo para ligar o Google Drive, o Gmail e o Google Agenda ao Claude com o seu login do Google, e pedidos de exemplo para achar um prazo, um e-mail sem resposta e um horário livre.</p>
+      <div class="hero__acoes">
+        <a class="btn btn--sinal" href="../../arquivos/Conectores Google Drive Gmail e Agenda no Claude - Agentes que Trabalham.pdf" download type="application/pdf">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></span>
+          <span class="txt">Baixar o guia<small>PDF · 5 páginas · 202 KB</small></span>
+        </a>
+        <a class="btn" href="#pedido">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg></span>
+          <span class="txt">Copiar os pedidos<small>exemplos para colar no Claude</small></span>
+        </a>
+      </div>
+      <p class="hero__meta"><span>Versão 1 · atualizado em 24/11/2026</span><span>Leitura nesta página, sem cadastro</span></p>
+    </div>
+  </section>
+
+  <nav class="indice" aria-label="Nesta página">
+    <div class="wrap">
+      <ol>
+        <li><a href="#links-oficiais">Links oficiais</a></li>
+        <li><a href="#o-que-mandar">O que ter em mãos</a></li>
+        <li><a href="#pedido">Pedidos</a></li>
+        <li><a href="#como-usar">Como usar</a></li>
+        <li><a href="#exemplo">Exemplo</a></li>
+        <li><a href="#checklist">Checklist</a></li>
+      </ol>
+    </div>
+  </nav>
+
+  <section class="secao" id="links-oficiais" aria-labelledby="titulo-links">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Fonte oficial</p>
+        <h2 class="h2" id="titulo-links">Links <span class="s">oficiais</span></h2>
+        <p>Páginas de quem fez o recurso. Os nomes de menus e botões vêm de lá e podem aparecer traduzidos no seu Claude.</p>
+      </div>
+      <ul class="checklist links-skill" aria-label="Links oficiais">
+        <li><a href="https://claude.com/connectors/google-drive" rel="noopener noreferrer">Conector Google Drive (feito pelo Google)</a></li>
+        <li><a href="https://claude.com/connectors/gmail" rel="noopener noreferrer">Conector Gmail (feito pelo Google)</a></li>
+        <li><a href="https://claude.com/connectors/google-calendar" rel="noopener noreferrer">Conector Google Calendar, o Google Agenda (feito pelo Google)</a></li>
+        <li><a href="https://support.claude.com/en/articles/10166901-use-google-workspace-connectors" rel="noopener noreferrer">Conectores do Google Workspace (central de ajuda, em inglês)</a><br><span class="mudo">Limites, aprovação antes de agir e o que o administrador da empresa precisa liberar.</span></li>
+        <li><a href="https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities" rel="noopener noreferrer">Como adicionar e ligar conectores (central de ajuda, em inglês)</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="o-que-mandar" aria-labelledby="titulo-mandar">
+    <div class="wrap duas">
+      <div>
+        <div class="secao__cab">
+          <p class="rotulo">Antes de começar</p>
+          <h2 class="h2" id="titulo-mandar">O que <span class="s">ter em mãos.</span></h2>
+          <p>O login é o da conta Google onde estão os seus arquivos, e-mails e agenda.</p>
+        </div>
+        <ul class="checklist" aria-label="O que ter em mãos">
+        <li>Uma conta do Claude, no site ou no aplicativo de computador</li>
+        <li>O login da conta Google que tem os arquivos, os e-mails e a agenda</li>
+        <li>No plano Team ou Enterprise: o responsável pela conta (Owner ou Primary Owner) precisa ativar os conectores para a empresa antes</li>
+        <li>Se a empresa usa Google Workspace com apps bloqueados: o administrador do Google pode precisar marcar o Claude como confiável</li>
+        <li>Documentos com o texto escrito: imagem dentro do documento não é lida</li>
+        </ul>
+      </div>
+      <article class="bloco" aria-labelledby="titulo-nao-mandar">
+        <p class="rotulo">Fica de fora</p>
+        <h3 class="h3" id="titulo-nao-mandar">Não faça</h3>
+        <ul class="checklist">
+        <li>Não digite a senha do Google no chat: o login é feito na página do próprio Google</li>
+        <li>Não aprove envio de e-mail sem ler o rascunho</li>
+        <li>Não ligue conector que você não vai usar naquela conversa</li>
+        <li>Não peça para apagar ou compartilhar arquivo sem conferir qual é</li>
+        </ul>
+        <p class="rotulo" style="margin-top:20px">O que os conectores fazem</p>
+        <ul class="checklist">
+        <li>Google Drive: procura e lê Docs, Sheets, Slides, PDFs e arquivos do Office, e também pode criar e enviar arquivos</li>
+        <li>Gmail: busca e lê e-mails e conversas inteiras, escreve rascunhos e pode enviar, responder e encaminhar</li>
+        <li>Google Agenda: mostra eventos, acha horários livres e cria, muda ou apaga eventos</li>
+        <li>Cita na resposta os e-mails, eventos ou documentos que usou</li>
+        </ul>
+        <p class="rotulo" style="margin-top:20px">O que eles não fazem</p>
+        <ul class="checklist">
+        <li>Não lê imagens dentro dos documentos</li>
+        <li>Não abre anexo do Gmail acima de cerca de 12 MB</li>
+        <li>Não vê o que a sua conta Google não pode ver</li>
+        <li>No padrão (fora do modo Auto), não age em seu nome, como enviar e-mail ou mover arquivo, sem pedir sua aprovação</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="secao" id="pedido" aria-labelledby="titulo-pedido">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Pedidos de exemplo</p>
+        <h2 class="h2" id="titulo-pedido">Copie, preencha <span class="s">e confira.</span></h2>
+        <p>Pedidos de exemplo escritos pelo escritório para colar depois de ligar os conectores. Não foram testados por nós. Troque o que está entre colchetes pelos seus dados. Também em <a href="../../arquivos/Conectores Google Drive Gmail e Agenda no Claude - Pedidos de Exemplo - Agentes que Trabalham.txt" download>arquivo de texto editável</a>.</p>
+      </div>
+      <div class="pedido">
+        <div class="pedido__barra">
+          <span>pedido</span>
+          <button type="button" class="copiar" data-copiar="pedido-texto" data-aviso="aviso-copia">
+            <span class="ic" aria-hidden="true"><svg class="cp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><svg class="ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+            <span class="rotulo-copiar">Copiar pedidos</span>
+          </button>
+        </div>
+        <pre id="pedido-texto" tabindex="0" aria-label="Texto do pedido">Pedido 1 · Google Drive
+Procure no meu Google Drive o contrato com <mark>[nome do fornecedor]</mark> e me diga qual é o prazo para cancelar. Mostre o trecho do contrato e o nome do arquivo de onde tirou.
+
+Pedido 2 · Gmail
+Procure no meu Gmail e-mails de <mark>[nome do cliente ou domínio, ex.: @empresa.com.br]</mark> dos últimos <mark>[7]</mark> dias que ainda estão sem resposta minha. Liste remetente, assunto e data. Para o mais antigo, escreva um rascunho de resposta curto. Não envie nada.
+
+Pedido 3 · Google Agenda
+Veja a minha agenda de <mark>[quinta-feira, dd/mm]</mark> à tarde e sugira dois horários livres de <mark>[1 hora]</mark> para uma reunião com <mark>[nome do fornecedor]</mark>. Só crie o evento depois que eu escolher o horário.</pre>
+      </div>
+      <p class="aviso-copia" id="aviso-copia" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="secao" id="como-usar" aria-labelledby="titulo-como">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Passo a passo</p>
+        <h2 class="h2" id="titulo-como">Como <span class="s">usar</span></h2>
+      </div>
+      <ol class="etapas">
+        <li><span class="num" aria-hidden="true">01</span><p>No Claude (no site ou no aplicativo de computador), abra Customize e depois Connectors. Clique no + ao lado de Connectors. Os nomes podem aparecer traduzidos.</p></li>
+        <li><span class="num" aria-hidden="true">02</span><p>Escolha Google Drive, confira que aparece Made by Google e clique em Connect (ou Install). Faça o login na página do Google e autorize.</p></li>
+        <li><span class="num" aria-hidden="true">03</span><p>Repita com Gmail e com Google Calendar, que é o Google Agenda. A página de cada conector em claude.com também tem o botão Add to Claude.</p></li>
+        <li><span class="num" aria-hidden="true">04</span><p>No plano Team ou Enterprise, se o conector não aparecer, fale com o responsável pela conta: ele precisa ativar os conectores para a empresa.</p></li>
+        <li><span class="num" aria-hidden="true">05</span><p>Numa conversa, clique no + no canto inferior esquerdo (ou digite /), passe o mouse em Connectors e ligue só os que vai usar.</p></li>
+        <li><span class="num" aria-hidden="true">06</span><p>Cole um dos pedidos e troque o que está entre colchetes. O Claude escolhe sozinho qual conector usar.</p></li>
+        <li><span class="num" aria-hidden="true">07</span><p>Abra a fonte que ele citar. Antes de aprovar um envio de e-mail ou um evento, confira texto, destinatário, dia e hora.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="secao" id="exemplo" aria-labelledby="titulo-exemplo">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Exemplo</p>
+        <h2 class="h2" id="titulo-exemplo">O que conferir <span class="s">no resultado</span></h2>
+      </div>
+      <div class="exemplo">
+        <span class="selo-ex">Exemplo ilustrativo · não é saída de teste</span>
+        <blockquote class="entrada">Situação inventada para mostrar o formato: escritório fictício, com o contrato de uma gráfica no Drive, e-mails de clientes no Gmail e a agenda da semana.</blockquote>
+        <div class="tabela-rolagem" role="region" aria-labelledby="cap-exemplo" tabindex="0">
+          <table>
+            <caption id="cap-exemplo">Trechos do resultado, um por linha</caption>
+            <thead><tr><th scope="col">Parte</th><th scope="col">Exemplo</th><th scope="col">O que conferir</th></tr></thead>
+            <tbody>
+              <tr><td data-rotulo="Etapa"><span class="cls">Google Drive</span></td><td data-rotulo="Exemplo">Prazo para cancelar: aviso com 30 dias de antecedência (cláusula 8 do arquivo &quot;Contrato Gráfica Exemplo 2026&quot;).</td><td data-rotulo="O que conferir">Abra o arquivo citado e leia a cláusula. Contrato escaneado como imagem pode não ser lido.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">Gmail</span></td><td data-rotulo="Exemplo">3 e-mails sem resposta. O mais antigo: &quot;Orçamento de sacolas&quot;, de 18/11. Rascunho criado, não enviado.</td><td data-rotulo="O que conferir">Confira se são mesmo clientes e leia o rascunho antes de aprovar o envio.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">Google Agenda</span></td><td data-rotulo="Exemplo">Quinta à tarde: livre das 14h às 15h e das 16h às 17h. Esperando a sua escolha para criar o evento.</td><td data-rotulo="O que conferir">Confira dia, hora e convidados antes de confirmar.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="alerta" style="margin-top:16px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17.5v.01"/></svg>
+        <div>
+          <p><strong>Como foi testado.</strong> Não testado pelo escritório. Passos conferidos nas páginas oficiais do Claude e dos conectores em 24/11/2026. O exemplo acima foi montado à mão para mostrar o formato e não é resposta real do Claude.</p>
+          <p style="margin-top:8px"><strong>Limite.</strong> As páginas oficiais não dizem plano por plano onde cada conector funciona; a central de ajuda diz que eles estão disponíveis para os usuários do Claude e do Claude Desktop. Para achar e-mail de cliente, o Claude precisa saber quem é cliente: diga o nome ou o domínio. Ao conectar, você dá ao Claude acesso aos dados da sua conta Google, e ele pode errar na busca.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="checklist" aria-labelledby="titulo-checklist">
+    <div class="wrap duas">
+      <div>
+        <div class="secao__cab">
+          <p class="rotulo">Antes de usar</p>
+          <h2 class="h2" id="titulo-checklist">Checklist <span class="s">final</span></h2>
+          <p>As marcações ficam só nesta tela e somem ao recarregar.</p>
+        </div>
+        <div class="alerta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17.5v.01"/></svg>
+          <p><strong>O Claude pode errar na busca.</strong> Confira na fonte o que ele trouxe. No padrão, fora do modo Auto, ele pede sua aprovação antes de agir em seu nome: leia antes de aprovar.</p>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li><label><input type="checkbox"> Você ligou só os conectores de que precisava nesta conversa?</label></li>
+        <li><label><input type="checkbox"> O trecho, o e-mail ou o evento citado existe mesmo na fonte?</label></li>
+        <li><label><input type="checkbox"> Você leu o rascunho antes de aprovar o envio?</label></li>
+        <li><label><input type="checkbox"> Dia, hora e convidados do evento estão certos?</label></li>
+        <li><label><input type="checkbox"> No plano de equipe, o responsável pela conta já ativou os conectores?</label></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="proximo-passo" aria-labelledby="titulo-proximo">
+    <div class="wrap duas">
+      <article class="bloco" aria-labelledby="titulo-proximo">
+        <p class="rotulo">Próximo passo opcional</p>
+        <h2 class="h3" id="titulo-proximo">Kit 10 Agentes de IA para Pequenas Empresas</h2>
+        <p>Os conectores são do Google e não têm relação com o Kit 10. O Kit é outra coisa e não depende deles: traz instruções prontas para tarefas como cobrança, acompanhamento de orçamento e status semanal de projeto. São dez agentes em texto para colar no seu chat de IA. Este guia é gratuito e funciona sem a compra.</p>
+        <div class="preco"><strong>R$ 47</strong><span>pagamento único</span></div>
+        <a class="btn btn--sinal" href="../../produtos/kit-10-agentes/">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          <span class="txt">Quero saber mais</span>
+        </a>
+      </article>
+      <ul class="ficha" aria-label="Sobre este material">
+        <li><span>material</span><span>CON-GWS-001 · versão 1</span></li>
+        <li><span>autoria</span><span>Agentes que Trabalham</span></li>
+        <li><span>atualizado</span><span>24/11/2026</span></li>
+        <li><span>exemplo</span><span>ilustrativo, montado pelo escritório</span></li>
+        <li><span>arquivos</span><span>guia PDF · links oficiais · pedidos em texto editável</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <p><a href="../../#biblioteca">← Voltar à biblioteca</a></p>
+    <p><a href="https://www.instagram.com/agentesquetrabalham/" rel="noopener">@agentesquetrabalham no Instagram</a></p>
+  </div>
+</footer>
+
+<script src="../../assets/js/recurso.js" defer></script>
+</body>
+</html>

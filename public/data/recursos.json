@@ -1,5 +1,5 @@
 {
-  "gerado_em": "2026-11-24T13:46:47",
+  "gerado_em": "2026-11-24T23:12:59",
   "recursos": [
     {
       "recurso_id": "ATA-001",
@@ -925,6 +925,290 @@
           "post_id": "18061329407811871"
         }
       ]
+    },
+    {
+      "recurso_id": "PLG-FIN-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Financeiro",
+      "titulo": "Plugin Finance: extrato contra planilha",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/plg-fin-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Plugin Finance - Anthropic.pdf",
+          "paginas": 5,
+          "bytes": 218457,
+          "sha256": "604f9322b730fe741a0cc58b989455148738c0ed939687c0e22fa4e6b25104e5",
+          "gerado_em": "2026-11-24T23:12:57",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Plugin Finance - Pedidos de Exemplo - Agentes que Trabalham.txt",
+          "bytes": 3644,
+          "sha256": "b0b0a3f43560833faaab4c79b3d5b674bb275dc4925a525f647fe65e25d4f114"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/plg-fin-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/gravados-modelados-2026-11-25/M1-fechamento-plugin-finance.md",
+        "contas/agentesquetrabalham/gravados-modelados-2026-11-25/REVISAO.md"
+      ],
+      "agente_kit_pago_nao_copiado": null,
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/gravados-modelados-2026-11-25/M1-fechamento-plugin-finance.md",
+          "sha256": "b2da7a74bf33d5f73ea07914d861ca9a2e1912595a2396fb2b2253e6e338ef43"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/gravados-modelados-2026-11-25/REVISAO.md",
+          "sha256": "f52ac2e7047bab389152c7abcbefc144ad98001e027da4223a7da46ae4d10f89"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": null,
+          "tipo": "reel",
+          "palavra": "FECHAMENTO"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/plg-fin-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Plugin%20Finance%20-%20Anthropic.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Plugin%20Finance%20-%20Pedidos%20de%20Exemplo%20-%20Agentes%20que%20Trabalham.txt",
+      "origem": "materiais dos Reels gravados de 25 a 27/11/2026 (Claude Opus, esforço high)",
+      "fontes_oficiais": [
+        {
+          "nome": "Página oficial do plugin Finance (claude.com)",
+          "url": "https://claude.com/plugins/finance",
+          "nota": "Lista os comandos, entre eles /reconciliation, e o aviso de revisão por profissional de finanças."
+        },
+        {
+          "nome": "Código e guia do plugin no GitHub (Anthropic, licença Apache 2.0)",
+          "url": "https://github.com/anthropics/knowledge-work-plugins/tree/main/finance"
+        },
+        {
+          "nome": "Como usar plugins no Claude (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude",
+          "nota": "Planos, onde clicar para adicionar e como chamar as skills do plugin."
+        }
+      ],
+      "recurso_terceiro": {
+        "tipo": "plugin",
+        "nome": "Finance",
+        "mantenedor": "Anthropic",
+        "licenca": "Apache 2.0",
+        "planos": "pagos (Pro, Max, Ultra, Team, Enterprise)"
+      },
+      "testado_pelo_escritorio": false
+    },
+    {
+      "recurso_id": "CON-GWS-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Administrativo",
+      "titulo": "Conectores Google Drive, Gmail e Agenda no Claude",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/con-gws-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Conectores Google Drive Gmail e Agenda no Claude - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 206902,
+          "sha256": "06d57b382ad0b45c3c089336980eee11e5b75cbbee83360b13c4a87cfb8edb31",
+          "gerado_em": "2026-11-24T23:12:58",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Conectores Google Drive Gmail e Agenda no Claude - Pedidos de Exemplo - Agentes que Trabalham.txt",
+          "bytes": 3814,
+          "sha256": "6e2d642bca1371a189f992af089fc1d2a5e881d61587b9090764eca5151740ae"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/con-gws-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/gravados-modelados-2026-11-25/M2-conecta-tres-conectores-google.md",
+        "contas/agentesquetrabalham/gravados-modelados-2026-11-25/REVISAO.md"
+      ],
+      "agente_kit_pago_nao_copiado": null,
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/gravados-modelados-2026-11-25/M2-conecta-tres-conectores-google.md",
+          "sha256": "bf6c0d202f96c4837a7ef3ae58e9c0d12b95fad4338a8de4af8ad705ce3b0e80"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/gravados-modelados-2026-11-25/REVISAO.md",
+          "sha256": "f52ac2e7047bab389152c7abcbefc144ad98001e027da4223a7da46ae4d10f89"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": null,
+          "tipo": "reel",
+          "palavra": "CONECTA"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/con-gws-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Conectores%20Google%20Drive%20Gmail%20e%20Agenda%20no%20Claude%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Conectores%20Google%20Drive%20Gmail%20e%20Agenda%20no%20Claude%20-%20Pedidos%20de%20Exemplo%20-%20Agentes%20que%20Trabalham.txt",
+      "origem": "materiais dos Reels gravados de 25 a 27/11/2026 (Claude Opus, esforço high)",
+      "fontes_oficiais": [
+        {
+          "nome": "Conector Google Drive (feito pelo Google)",
+          "url": "https://claude.com/connectors/google-drive"
+        },
+        {
+          "nome": "Conector Gmail (feito pelo Google)",
+          "url": "https://claude.com/connectors/gmail"
+        },
+        {
+          "nome": "Conector Google Calendar, o Google Agenda (feito pelo Google)",
+          "url": "https://claude.com/connectors/google-calendar"
+        },
+        {
+          "nome": "Conectores do Google Workspace (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/10166901-use-google-workspace-connectors",
+          "nota": "Limites, aprovação antes de agir e o que o administrador da empresa precisa liberar."
+        },
+        {
+          "nome": "Como adicionar e ligar conectores (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities"
+        }
+      ],
+      "recurso_terceiro": {
+        "tipo": "conector",
+        "nome": "Google Drive, Gmail e Google Calendar",
+        "mantenedor": "Google (Made by Google no diretório do Claude)",
+        "planos": "não listados plano a plano nas páginas oficiais"
+      },
+      "testado_pelo_escritorio": false
+    },
+    {
+      "recurso_id": "SKL-OFFICE-001",
+      "conta": "agentesquetrabalham",
+      "area": "ia",
+      "funcao": "Escritório",
+      "titulo": "Skills de Excel, PowerPoint e Word no Claude",
+      "versao": "1",
+      "data_versao": "2026-11-24",
+      "pagina": "materiais/skl-office-001/",
+      "arquivos": [
+        {
+          "tipo": "pdf",
+          "caminho": "arquivos/Skills para Criar Arquivos de Excel PowerPoint e Word - Agentes que Trabalham.pdf",
+          "paginas": 5,
+          "bytes": 267518,
+          "sha256": "01c44b1eb7b7348bd39db5dce16bf596df8d62d78e73b725791056790310f1fd",
+          "gerado_em": "2026-11-24T23:12:59",
+          "fontes": [
+            "",
+            "AAAAAA+GeistMono-Regular",
+            "BAAAAA+Anton-Regular",
+            "CAAAAA+Geist-Regular",
+            "DAAAAA+Geist-Regular"
+          ]
+        },
+        {
+          "tipo": "txt",
+          "caminho": "arquivos/Skills para Criar Arquivos de Excel PowerPoint e Word - Pedidos de Exemplo - Agentes que Trabalham.txt",
+          "bytes": 3415,
+          "sha256": "b7fa8f160818729dbaa15da42accfb7736fe6fff4bdb5deb7e8b65be776bdf03"
+        }
+      ],
+      "fonte_editorial": "AGENTES-MATERIAIS/conteudo-mutirao/skl-office-001.json",
+      "pastas_dos_posts": [
+        "contas/agentesquetrabalham/gravados-modelados-2026-11-25/M3-arquivo-tres-skills-office.md",
+        "contas/agentesquetrabalham/gravados-modelados-2026-11-25/REVISAO.md"
+      ],
+      "agente_kit_pago_nao_copiado": null,
+      "evidencias": [
+        {
+          "arquivo": "contas/agentesquetrabalham/gravados-modelados-2026-11-25/M3-arquivo-tres-skills-office.md",
+          "sha256": "bb60b15625116dcb01fee3459db6d5b22c70164b6ab870453997c614a2afbf01"
+        },
+        {
+          "arquivo": "contas/agentesquetrabalham/gravados-modelados-2026-11-25/REVISAO.md",
+          "sha256": "f52ac2e7047bab389152c7abcbefc144ad98001e027da4223a7da46ae4d10f89"
+        }
+      ],
+      "posts": [
+        {
+          "post_id": null,
+          "tipo": "reel",
+          "palavra": "ARQUIVO"
+        }
+      ],
+      "oferta": {
+        "produto": "Kit 10 Agentes de IA para Pequenas Empresas",
+        "preco": "R$ 47",
+        "pagina": "produtos/kit-10-agentes/"
+      },
+      "status": "local_pronto",
+      "publicado": false,
+      "url_publica": "https://agentesquetrabalham.onrender.com/materiais/skl-office-001/",
+      "pdf_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Skills%20para%20Criar%20Arquivos%20de%20Excel%20PowerPoint%20e%20Word%20-%20Agentes%20que%20Trabalham.pdf",
+      "txt_url_publica": "https://agentesquetrabalham.onrender.com/arquivos/Skills%20para%20Criar%20Arquivos%20de%20Excel%20PowerPoint%20e%20Word%20-%20Pedidos%20de%20Exemplo%20-%20Agentes%20que%20Trabalham.txt",
+      "origem": "materiais dos Reels gravados de 25 a 27/11/2026 (Claude Opus, esforço high)",
+      "fontes_oficiais": [
+        {
+          "nome": "O que são skills (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/12512176-what-are-skills",
+          "nota": "Diz que as skills de Excel, Word, PowerPoint e PDF são feitas e mantidas pela Anthropic e quais planos têm skills."
+        },
+        {
+          "nome": "Como usar skills no Claude (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/12512180-using-skills-in-claude"
+        },
+        {
+          "nome": "Criar e editar arquivos com o Claude (central de ajuda, em inglês)",
+          "url": "https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude",
+          "nota": "Onde ligar a opção, limite de 30 MB por arquivo e avisos de segurança."
+        },
+        {
+          "nome": "Código das skills no GitHub (Anthropic, licença Apache 2.0)",
+          "url": "https://github.com/anthropics/skills",
+          "nota": "Pastas skills/xlsx, skills/pptx e skills/docx. O próprio repositório diz que é material de demonstração e estudo."
+        }
+      ],
+      "recurso_terceiro": {
+        "tipo": "skill",
+        "nome": "xlsx, pptx e docx (criação de arquivos)",
+        "mantenedor": "Anthropic",
+        "licenca": "Apache 2.0",
+        "planos": "Free, Pro, Max, Ultra, Team e Enterprise segundo a central de ajuda"
+      },
+      "testado_pelo_escritorio": false
     }
   ]
 }

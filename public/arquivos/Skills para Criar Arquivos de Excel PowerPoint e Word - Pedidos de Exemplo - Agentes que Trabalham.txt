@@ -1,0 +1,50 @@
+﻿Skills de Excel, PowerPoint e Word no Claude · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/skl-office-001/
+
+LINKS OFICIAIS
+- O que são skills (central de ajuda, em inglês): https://support.claude.com/en/articles/12512176-what-are-skills
+- Como usar skills no Claude (central de ajuda, em inglês): https://support.claude.com/en/articles/12512180-using-skills-in-claude
+- Criar e editar arquivos com o Claude (central de ajuda, em inglês): https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+- Código das skills no GitHub (Anthropic, licença Apache 2.0): https://github.com/anthropics/skills
+
+PASSO A PASSO
+1. No Claude, vá em Settings > Capabilities e veja se Code execution and file creation está ligado. Na tela nova de configurações, o nome é Create and edit files. Os nomes podem aparecer traduzidos.
+2. Em Customize > Skills, confira se as skills de Excel, Word, PowerPoint e PDF estão ligadas.
+3. No plano Team, a opção vem ligada para a empresa. No Enterprise, o responsável pela conta confirma Code execution and file creation e Skills na aba Policy.
+4. Numa conversa nova, anexe o arquivo de origem e cole um dos pedidos, trocando o que está entre colchetes. Peça o arquivo, não o texto.
+5. Baixe o arquivo direto da conversa.
+6. Abra o arquivo e confira os números com a fonte antes de mandar para alguém.
+
+PEDIDOS DE EXEMPLO PARA COLAR NO CLAUDE (troque o que está entre colchetes)
+
+Pedido 1 · Excel
+Extraia todos os itens deste PDF da tabela de preços de [fornecedor] para uma planilha do Excel, com as colunas [código, produto, unidade, preço]. Mantenha os valores exatamente como estão no PDF e marque as linhas que você não conseguiu ler.
+
+Pedido 2 · PowerPoint
+Transforme este documento do Word em uma apresentação de [8] slides para [reunião com a diretoria]. Um assunto por slide, frases curtas e os números do documento sem arredondar.
+
+Pedido 3 · Word
+Monte um relatório em Word sobre [assunto, ex.: vendas de outubro] com estas seções: [resumo, números do mês, pendências]. Use só os dados que eu colei abaixo e escreva [A CONFIRMAR] onde faltar informação.
+[cole aqui os dados]
+
+O QUE TER EM MÃOS
+- Uma conta do Claude. A central de ajuda lista skills e criação de arquivos nos planos Free, Pro, Max, Ultra, Team e Enterprise
+- A opção Code execution and file creation ligada (na tela nova de configurações ela se chama Create and edit files)
+- O arquivo de origem: o PDF da tabela, o documento do Word ou os dados do relatório
+- Arquivos de até 30 MB
+- Uma ideia clara do formato: quais colunas, quantos slides, quais seções
+
+NÃO MANDE
+- Planilhas com CPF, salário ou dados de cliente que não precisam ir
+- Senhas e dados bancários
+- Arquivos de origem desconhecida: um arquivo pode trazer instrução escondida para o Claude
+- Pedido de "só o texto" quando você quer o arquivo
+
+CONFERÊNCIA ANTES DE USAR
+[ ] A opção de criar e editar arquivos está ligada?
+[ ] Você anexou o arquivo certo e tirou dados que não precisavam ir?
+[ ] Os números do arquivo batem com a fonte?
+[ ] As linhas ou trechos marcados para conferir foram resolvidos?
+[ ] Você abriu o arquivo baixado antes de mandar para alguém?
+
+Abra o arquivo antes de mandar. O Claude pode errar um número ou uma linha. Confira com a fonte, ajuste e só depois envie.

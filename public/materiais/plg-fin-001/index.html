@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plugin Finance: extrato contra planilha (PLG-FIN-001) · Material gratuito · Agentes que Trabalham</title>
+<meta name="description" content="Plugin Finance da Anthropic: link oficial, como adicionar no Claude e pedidos de exemplo para comparar extrato e planilha. Só nos planos pagos.">
+<meta name="theme-color" content="#050706">
+<link rel="icon" href="../../assets/img/favicon.png" type="image/png">
+<link rel="preload" href="../../assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../../assets/css/site.css">
+<link rel="canonical" href="https://agentesquetrabalham.onrender.com/materiais/plg-fin-001/">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="assin" href="../../" aria-label="Agentes que Trabalham, início">
+      <img src="../../assets/img/logo-robozinho.png" width="40" height="40" alt="">
+      <span>agentesquetrabalham</span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="../../#biblioteca">Biblioteca</a>
+      <a class="nav-sec" href="#proximo-passo">Kit 10</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" aria-labelledby="titulo-pagina">
+    <img class="hero__img" src="../../assets/img/obj-lupa-revisao.webp" width="960" height="1200" alt="" fetchpriority="high">
+    <div class="wrap">
+      <nav class="trilha" aria-label="Você está em">
+        <ol>
+          <li><a href="../../#biblioteca">Biblioteca</a></li>
+          <li><span aria-current="page">PLG-FIN-001</span></li>
+        </ol>
+      </nav>
+      <p class="rotulo"><span class="ponto" aria-hidden="true"></span>Financeiro · gratuito · versão 1</p>
+      <h1 class="titulo" id="titulo-pagina">
+        <span class="ln">Extrato contra planilha:</span>
+        <span class="ln s">o que não bate.</span>
+      </h1>
+      <p class="apoio">Link oficial e passo a passo para adicionar o plugin Finance, da Anthropic, e usar a conciliação para comparar o extrato do banco com a planilha do mês. Ele aponta as diferenças. Quem decide é você.</p>
+      <div class="hero__acoes">
+        <a class="btn btn--sinal" href="../../arquivos/Plugin Finance - Anthropic.pdf" download type="application/pdf">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></span>
+          <span class="txt">Baixar o guia<small>PDF · 5 páginas · 213 KB</small></span>
+        </a>
+        <a class="btn" href="#pedido">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg></span>
+          <span class="txt">Copiar os pedidos<small>exemplos para colar no Claude</small></span>
+        </a>
+      </div>
+      <p class="hero__meta"><span>Versão 1 · atualizado em 24/11/2026</span><span>Leitura nesta página, sem cadastro</span></p>
+    </div>
+  </section>
+
+  <nav class="indice" aria-label="Nesta página">
+    <div class="wrap">
+      <ol>
+        <li><a href="#links-oficiais">Links oficiais</a></li>
+        <li><a href="#o-que-mandar">O que ter em mãos</a></li>
+        <li><a href="#pedido">Pedidos</a></li>
+        <li><a href="#como-usar">Como usar</a></li>
+        <li><a href="#exemplo">Exemplo</a></li>
+        <li><a href="#checklist">Checklist</a></li>
+      </ol>
+    </div>
+  </nav>
+
+  <section class="secao" id="links-oficiais" aria-labelledby="titulo-links">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Fonte oficial</p>
+        <h2 class="h2" id="titulo-links">Links <span class="s">oficiais</span></h2>
+        <p>Páginas de quem fez o recurso. Os nomes de menus e botões vêm de lá e podem aparecer traduzidos no seu Claude.</p>
+      </div>
+      <ul class="checklist links-skill" aria-label="Links oficiais">
+        <li><a href="https://claude.com/plugins/finance" rel="noopener noreferrer">Página oficial do plugin Finance (claude.com)</a><br><span class="mudo">Lista os comandos, entre eles /reconciliation, e o aviso de revisão por profissional de finanças.</span></li>
+        <li><a href="https://github.com/anthropics/knowledge-work-plugins/tree/main/finance" rel="noopener noreferrer">Código e guia do plugin no GitHub (Anthropic, licença Apache 2.0)</a></li>
+        <li><a href="https://support.claude.com/en/articles/13837440-use-plugins-in-claude" rel="noopener noreferrer">Como usar plugins no Claude (central de ajuda, em inglês)</a><br><span class="mudo">Planos, onde clicar para adicionar e como chamar as skills do plugin.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="o-que-mandar" aria-labelledby="titulo-mandar">
+    <div class="wrap duas">
+      <div>
+        <div class="secao__cab">
+          <p class="rotulo">Antes de começar</p>
+          <h2 class="h2" id="titulo-mandar">O que <span class="s">ter em mãos.</span></h2>
+          <p>Antes de pedir, confira o plano e separe os dois arquivos do mesmo período.</p>
+        </div>
+        <ul class="checklist" aria-label="O que ter em mãos">
+        <li>Um plano pago do Claude: plugins são dos planos Pro, Max, Ultra, Team e Enterprise</li>
+        <li>O extrato do banco do período, em arquivo ou colado como texto</li>
+        <li>A planilha (ou o razão) do mesmo período, com data, descrição e valor de cada lançamento</li>
+        <li>O saldo final que o banco mostra e o saldo final da planilha</li>
+        <li>No Team ou Enterprise: o administrador pode ter limitado quais plugins você adiciona</li>
+        </ul>
+      </div>
+      <article class="bloco" aria-labelledby="titulo-nao-mandar">
+        <p class="rotulo">Fica de fora</p>
+        <h3 class="h3" id="titulo-nao-mandar">Não mande</h3>
+        <ul class="checklist">
+        <li>Senha do banco, token ou código de acesso: nunca</li>
+        <li>Número completo de conta e agência, quando não fizer falta</li>
+        <li>CPF e dados pessoais de clientes ou funcionários que aparecem no extrato, quando der para tirar</li>
+        <li>Meses que não são do período que você quer conferir</li>
+        </ul>
+        <p class="rotulo" style="margin-top:20px">O que o plugin faz</p>
+        <ul class="checklist">
+        <li>Compara saldos do razão com banco, subrazão ou terceiros e lista os itens que explicam a diferença (descrição oficial do /reconciliation)</li>
+        <li>Aceita dados colados ou arquivos enviados; ligar ao seu sistema de gestão é opcional</li>
+        <li>Traz outros comandos de finanças, como /journal-entry e /variance-analysis</li>
+        </ul>
+        <p class="rotulo" style="margin-top:20px">O que ele não faz</p>
+        <ul class="checklist">
+        <li>Não decide nem lança nada no seu sistema: aponta</li>
+        <li>Não dá orientação financeira, fiscal ou de auditoria (aviso da própria Anthropic)</li>
+        <li>Não substitui o contador: a Anthropic diz que tudo deve ser revisado por profissional de finanças antes de ir para relatório</li>
+        <li>Não está no plano grátis</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="secao" id="pedido" aria-labelledby="titulo-pedido">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Pedidos de exemplo</p>
+        <h2 class="h2" id="titulo-pedido">Copie, preencha <span class="s">e confira.</span></h2>
+        <p>Pedidos de exemplo escritos pelo escritório para colar depois de adicionar o plugin. Não fazem parte do plugin e não foram testados por nós. Troque o que está entre colchetes pelos seus dados. Também em <a href="../../arquivos/Plugin Finance - Pedidos de Exemplo - Agentes que Trabalham.txt" download>arquivo de texto editável</a>.</p>
+      </div>
+      <div class="pedido">
+        <div class="pedido__barra">
+          <span>pedido</span>
+          <button type="button" class="copiar" data-copiar="pedido-texto" data-aviso="aviso-copia">
+            <span class="ic" aria-hidden="true"><svg class="cp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><svg class="ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+            <span class="rotulo-copiar">Copiar pedidos</span>
+          </button>
+        </div>
+        <pre id="pedido-texto" tabindex="0" aria-label="Texto do pedido">Pedido 1 · conciliação do mês
+Compare o extrato do banco <mark>[nome do banco]</mark> com a minha planilha de lançamentos de <mark>[mês/ano]</mark>, que estão nos dois arquivos anexados. Liste cada diferença numa tabela: data, descrição, valor, onde aparece (só no banco ou só na planilha) e um motivo provável. Não corrija nada nos arquivos. No fim, mostre o saldo final de cada um e a diferença total.
+
+Pedido 2 · entender uma diferença
+Sobre a diferença de <mark>[R$ valor]</mark> em <mark>[data]</mark>: mostre em qual linha do extrato e da planilha ela aparece e o que eu preciso conferir para saber se é tarifa, lançamento duplicado ou erro de digitação.
+
+Pedido 3 · lista para quem revisa
+Monte uma lista curta das diferenças que ainda não têm explicação, para eu levar ao <mark>[contador ou responsável pelo financeiro]</mark>. Não sugira lançamento contábil.</pre>
+      </div>
+      <p class="aviso-copia" id="aviso-copia" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="secao" id="como-usar" aria-labelledby="titulo-como">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Passo a passo</p>
+        <h2 class="h2" id="titulo-como">Como <span class="s">usar</span></h2>
+      </div>
+      <ol class="etapas">
+        <li><span class="num" aria-hidden="true">01</span><p>Confira o plano. Plugins são dos planos pagos (Pro, Max, Ultra, Team e Enterprise).</p></li>
+        <li><span class="num" aria-hidden="true">02</span><p>No Claude (no site ou na aba Chat do aplicativo de computador), abra Customize na barra lateral esquerda, depois a aba Plugins e a aba Discover. Os nomes podem aparecer traduzidos.</p></li>
+        <li><span class="num" aria-hidden="true">03</span><p>Escolha Finance, confira o selo Anthropic verified e clique em Add. No Cowork, abra a aba Cowork antes de Customize. A página oficial do plugin também tem o botão Install in Cowork.</p></li>
+        <li><span class="num" aria-hidden="true">04</span><p>Numa conversa nova, digite / ou clique em + para ver as skills do plugin e escolha reconciliation. No Cowork, também dá para digitar /finance:reconciliation.</p></li>
+        <li><span class="num" aria-hidden="true">05</span><p>Anexe o extrato e a planilha do mesmo período e cole o Pedido 1, trocando o que está entre colchetes.</p></li>
+        <li><span class="num" aria-hidden="true">06</span><p>Confira cada diferença no extrato original antes de lançar ou corrigir qualquer coisa. Se for para relatório ou declaração, leve para quem entende de finanças revisar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="secao" id="exemplo" aria-labelledby="titulo-exemplo">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Exemplo</p>
+        <h2 class="h2" id="titulo-exemplo">O que conferir <span class="s">no resultado</span></h2>
+      </div>
+      <div class="exemplo">
+        <span class="selo-ex">Exemplo ilustrativo · não é saída de teste</span>
+        <blockquote class="entrada">Situação inventada para mostrar o formato. Loja fictícia, outubro: o extrato termina com R$ 18.420,00 e a planilha com R$ 18.532,90. Diferença: R$ 112,90.</blockquote>
+        <div class="tabela-rolagem" role="region" aria-labelledby="cap-exemplo" tabindex="0">
+          <table>
+            <caption id="cap-exemplo">Trechos do resultado, um por linha</caption>
+            <thead><tr><th scope="col">Parte</th><th scope="col">Exemplo</th><th scope="col">O que conferir</th></tr></thead>
+            <tbody>
+              <tr><td data-rotulo="Etapa"><span class="cls">Só no banco</span></td><td data-rotulo="Exemplo">05/10 · Tarifa do pacote de serviços · R$ 49,90 · não está na planilha</td><td data-rotulo="O que conferir">Abra o extrato e confirme a tarifa. Quem decide se lança é você.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">Só no banco</span></td><td data-rotulo="Exemplo">18/10 · Tarifa de TED · R$ 13,00 · não está na planilha</td><td data-rotulo="O que conferir">Mesmo cuidado: confira no extrato original.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">Só na planilha</span></td><td data-rotulo="Exemplo">30/10 · Recebimento de boleto de cliente · R$ 50,00 · não aparece no extrato de outubro</td><td data-rotulo="O que conferir">Pode ser boleto que compensa no mês seguinte. Veja o extrato de novembro antes de mexer.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">Resumo</span></td><td data-rotulo="Exemplo">Diferença total: R$ 112,90 = R$ 62,90 em tarifas fora da planilha + R$ 50,00 lançados na planilha e ainda fora do extrato.</td><td data-rotulo="O que conferir">Refaça a conta. Se a soma não fechar, peça para ele mostrar linha por linha.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="alerta" style="margin-top:16px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17.5v.01"/></svg>
+        <div>
+          <p><strong>Como foi testado.</strong> Não testado pelo escritório. Passos conferidos nas páginas oficiais da Anthropic em 24/11/2026. O exemplo acima foi montado à mão para mostrar o formato e não é resposta do plugin.</p>
+          <p style="margin-top:8px"><strong>Limite.</strong> O plugin aponta diferenças, não decide. A própria Anthropic diz que tudo deve ser revisado por profissional de finanças qualificado antes de entrar em relatório ou declaração. Nada aqui garante que ele encontre todas as diferenças nem que leia qualquer formato de extrato.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="checklist" aria-labelledby="titulo-checklist">
+    <div class="wrap duas">
+      <div>
+        <div class="secao__cab">
+          <p class="rotulo">Antes de usar</p>
+          <h2 class="h2" id="titulo-checklist">Checklist <span class="s">final</span></h2>
+          <p>As marcações ficam só nesta tela e somem ao recarregar.</p>
+        </div>
+        <div class="alerta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17.5v.01"/></svg>
+          <p><strong>Ele aponta, não decide.</strong> A lista de diferenças é um ponto de partida. Você confere no extrato original e quem entende de finanças revisa antes de virar relatório.</p>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li><label><input type="checkbox"> Os dois arquivos são do mesmo período e da mesma conta?</label></li>
+        <li><label><input type="checkbox"> Você tirou senha, token e dados pessoais que não precisavam ir?</label></li>
+        <li><label><input type="checkbox"> Cada diferença apontada aparece mesmo no extrato original?</label></li>
+        <li><label><input type="checkbox"> A soma das diferenças fecha com a diferença entre os saldos?</label></li>
+        <li><label><input type="checkbox"> Alguém que entende de finanças revisou antes de virar relatório?</label></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="proximo-passo" aria-labelledby="titulo-proximo">
+    <div class="wrap duas">
+      <article class="bloco" aria-labelledby="titulo-proximo">
+        <p class="rotulo">Próximo passo opcional</p>
+        <h2 class="h3" id="titulo-proximo">Kit 10 Agentes de IA para Pequenas Empresas</h2>
+        <p>O plugin Finance é da Anthropic e não tem relação com o Kit 10. Se você quer instruções prontas para outras tarefas do financeiro, como cobrar cliente em atraso sem ameaça, o Kit 10 traz isso. São dez agentes em texto para colar no seu chat de IA. Este guia é gratuito e funciona sem a compra.</p>
+        <div class="preco"><strong>R$ 47</strong><span>pagamento único</span></div>
+        <a class="btn btn--sinal" href="../../produtos/kit-10-agentes/">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          <span class="txt">Quero saber mais</span>
+        </a>
+      </article>
+      <ul class="ficha" aria-label="Sobre este material">
+        <li><span>material</span><span>PLG-FIN-001 · versão 1</span></li>
+        <li><span>autoria</span><span>Agentes que Trabalham</span></li>
+        <li><span>atualizado</span><span>24/11/2026</span></li>
+        <li><span>exemplo</span><span>ilustrativo, montado pelo escritório</span></li>
+        <li><span>arquivos</span><span>guia PDF · links oficiais · pedidos em texto editável</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <p><a href="../../#biblioteca">← Voltar à biblioteca</a></p>
+    <p><a href="https://www.instagram.com/agentesquetrabalham/" rel="noopener">@agentesquetrabalham no Instagram</a></p>
+  </div>
+</footer>
+
+<script src="../../assets/js/recurso.js" defer></script>
+</body>
+</html>

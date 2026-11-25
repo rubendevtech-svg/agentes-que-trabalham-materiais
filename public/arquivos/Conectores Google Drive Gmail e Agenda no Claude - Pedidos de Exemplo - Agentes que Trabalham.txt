@@ -1,0 +1,51 @@
+﻿Conectores Google Drive, Gmail e Agenda no Claude · Agentes que Trabalham · versão 1 · 24/11/2026
+Página: https://agentesquetrabalham.onrender.com/materiais/con-gws-001/
+
+LINKS OFICIAIS
+- Conector Google Drive (feito pelo Google): https://claude.com/connectors/google-drive
+- Conector Gmail (feito pelo Google): https://claude.com/connectors/gmail
+- Conector Google Calendar, o Google Agenda (feito pelo Google): https://claude.com/connectors/google-calendar
+- Conectores do Google Workspace (central de ajuda, em inglês): https://support.claude.com/en/articles/10166901-use-google-workspace-connectors
+- Como adicionar e ligar conectores (central de ajuda, em inglês): https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities
+
+PASSO A PASSO
+1. No Claude (no site ou no aplicativo de computador), abra Customize e depois Connectors. Clique no + ao lado de Connectors. Os nomes podem aparecer traduzidos.
+2. Escolha Google Drive, confira que aparece Made by Google e clique em Connect (ou Install). Faça o login na página do Google e autorize.
+3. Repita com Gmail e com Google Calendar, que é o Google Agenda. A página de cada conector em claude.com também tem o botão Add to Claude.
+4. No plano Team ou Enterprise, se o conector não aparecer, fale com o responsável pela conta: ele precisa ativar os conectores para a empresa.
+5. Numa conversa, clique no + no canto inferior esquerdo (ou digite /), passe o mouse em Connectors e ligue só os que vai usar.
+6. Cole um dos pedidos e troque o que está entre colchetes. O Claude escolhe sozinho qual conector usar.
+7. Abra a fonte que ele citar. Antes de aprovar um envio de e-mail ou um evento, confira texto, destinatário, dia e hora.
+
+PEDIDOS DE EXEMPLO PARA COLAR NO CLAUDE DEPOIS DE LIGAR OS CONECTORES (troque o que está entre colchetes)
+
+Pedido 1 · Google Drive
+Procure no meu Google Drive o contrato com [nome do fornecedor] e me diga qual é o prazo para cancelar. Mostre o trecho do contrato e o nome do arquivo de onde tirou.
+
+Pedido 2 · Gmail
+Procure no meu Gmail e-mails de [nome do cliente ou domínio, ex.: @empresa.com.br] dos últimos [7] dias que ainda estão sem resposta minha. Liste remetente, assunto e data. Para o mais antigo, escreva um rascunho de resposta curto. Não envie nada.
+
+Pedido 3 · Google Agenda
+Veja a minha agenda de [quinta-feira, dd/mm] à tarde e sugira dois horários livres de [1 hora] para uma reunião com [nome do fornecedor]. Só crie o evento depois que eu escolher o horário.
+
+O QUE TER EM MÃOS
+- Uma conta do Claude, no site ou no aplicativo de computador
+- O login da conta Google que tem os arquivos, os e-mails e a agenda
+- No plano Team ou Enterprise: o responsável pela conta (Owner ou Primary Owner) precisa ativar os conectores para a empresa antes
+- Se a empresa usa Google Workspace com apps bloqueados: o administrador do Google pode precisar marcar o Claude como confiável
+- Documentos com o texto escrito: imagem dentro do documento não é lida
+
+NÃO FAÇA
+- Não digite a senha do Google no chat: o login é feito na página do próprio Google
+- Não aprove envio de e-mail sem ler o rascunho
+- Não ligue conector que você não vai usar naquela conversa
+- Não peça para apagar ou compartilhar arquivo sem conferir qual é
+
+CONFERÊNCIA ANTES DE USAR
+[ ] Você ligou só os conectores de que precisava nesta conversa?
+[ ] O trecho, o e-mail ou o evento citado existe mesmo na fonte?
+[ ] Você leu o rascunho antes de aprovar o envio?
+[ ] Dia, hora e convidados do evento estão certos?
+[ ] No plano de equipe, o responsável pela conta já ativou os conectores?
+
+O Claude pode errar na busca. Confira na fonte o que ele trouxe. No padrão, fora do modo Auto, ele pede sua aprovação antes de agir em seu nome: leia antes de aprovar.

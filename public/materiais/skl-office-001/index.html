@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skills de Excel, PowerPoint e Word no Claude (SKL-OFFICE-001) · Material gratuito · Agentes que Trabalham</title>
+<meta name="description" content="Skills de Excel, PowerPoint e Word da Anthropic no Claude: onde ativar, pedidos de exemplo para gerar planilha, slides e documento, e o que conferir.">
+<meta name="theme-color" content="#050706">
+<link rel="icon" href="../../assets/img/favicon.png" type="image/png">
+<link rel="preload" href="../../assets/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="../../assets/css/site.css">
+<link rel="canonical" href="https://agentesquetrabalham.onrender.com/materiais/skl-office-001/">
+</head>
+<body>
+<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="assin" href="../../" aria-label="Agentes que Trabalham, início">
+      <img src="../../assets/img/logo-robozinho.png" width="40" height="40" alt="">
+      <span>agentesquetrabalham</span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="../../#biblioteca">Biblioteca</a>
+      <a class="nav-sec" href="#proximo-passo">Kit 10</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero" aria-labelledby="titulo-pagina">
+    <img class="hero__img" src="../../assets/img/obj-caixa-skills.webp" width="960" height="1200" alt="" fetchpriority="high">
+    <div class="wrap">
+      <nav class="trilha" aria-label="Você está em">
+        <ol>
+          <li><a href="../../#biblioteca">Biblioteca</a></li>
+          <li><span aria-current="page">SKL-OFFICE-001</span></li>
+        </ol>
+      </nav>
+      <p class="rotulo"><span class="ponto" aria-hidden="true"></span>Escritório · gratuito · versão 1</p>
+      <h1 class="titulo" id="titulo-pagina">
+        <span class="ln">Peça o arquivo,</span>
+        <span class="ln s">não o textão.</span>
+      </h1>
+      <p class="apoio">As skills de Excel, PowerPoint e Word da Anthropic fazem o Claude entregar o arquivo pronto para baixar. Veja onde conferir a opção, pedidos de exemplo e o que revisar antes de mandar para alguém.</p>
+      <div class="hero__acoes">
+        <a class="btn btn--sinal" href="../../arquivos/Skills para Criar Arquivos de Excel PowerPoint e Word - Agentes que Trabalham.pdf" download type="application/pdf">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v12M6 11l6 6 6-6M5 20h14"/></svg></span>
+          <span class="txt">Baixar o guia<small>PDF · 5 páginas · 261 KB</small></span>
+        </a>
+        <a class="btn" href="#pedido">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg></span>
+          <span class="txt">Copiar os pedidos<small>exemplos para colar no Claude</small></span>
+        </a>
+      </div>
+      <p class="hero__meta"><span>Versão 1 · atualizado em 24/11/2026</span><span>Leitura nesta página, sem cadastro</span></p>
+    </div>
+  </section>
+
+  <nav class="indice" aria-label="Nesta página">
+    <div class="wrap">
+      <ol>
+        <li><a href="#links-oficiais">Links oficiais</a></li>
+        <li><a href="#o-que-mandar">O que ter em mãos</a></li>
+        <li><a href="#pedido">Pedidos</a></li>
+        <li><a href="#como-usar">Como usar</a></li>
+        <li><a href="#exemplo">Exemplo</a></li>
+        <li><a href="#checklist">Checklist</a></li>
+      </ol>
+    </div>
+  </nav>
+
+  <section class="secao" id="links-oficiais" aria-labelledby="titulo-links">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Fonte oficial</p>
+        <h2 class="h2" id="titulo-links">Links <span class="s">oficiais</span></h2>
+        <p>Páginas de quem fez o recurso. Os nomes de menus e botões vêm de lá e podem aparecer traduzidos no seu Claude.</p>
+      </div>
+      <ul class="checklist links-skill" aria-label="Links oficiais">
+        <li><a href="https://support.claude.com/en/articles/12512176-what-are-skills" rel="noopener noreferrer">O que são skills (central de ajuda, em inglês)</a><br><span class="mudo">Diz que as skills de Excel, Word, PowerPoint e PDF são feitas e mantidas pela Anthropic e quais planos têm skills.</span></li>
+        <li><a href="https://support.claude.com/en/articles/12512180-using-skills-in-claude" rel="noopener noreferrer">Como usar skills no Claude (central de ajuda, em inglês)</a></li>
+        <li><a href="https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude" rel="noopener noreferrer">Criar e editar arquivos com o Claude (central de ajuda, em inglês)</a><br><span class="mudo">Onde ligar a opção, limite de 30 MB por arquivo e avisos de segurança.</span></li>
+        <li><a href="https://github.com/anthropics/skills" rel="noopener noreferrer">Código das skills no GitHub (Anthropic, licença Apache 2.0)</a><br><span class="mudo">Pastas skills/xlsx, skills/pptx e skills/docx. O próprio repositório diz que é material de demonstração e estudo.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="o-que-mandar" aria-labelledby="titulo-mandar">
+    <div class="wrap duas">
+      <div>
+        <div class="secao__cab">
+          <p class="rotulo">Antes de começar</p>
+          <h2 class="h2" id="titulo-mandar">O que <span class="s">ter em mãos.</span></h2>
+          <p>A skill entra sozinha quando o pedido combina. O que muda o resultado é o arquivo de origem e o formato que você pede.</p>
+        </div>
+        <ul class="checklist" aria-label="O que ter em mãos">
+        <li>Uma conta do Claude. A central de ajuda lista skills e criação de arquivos nos planos Free, Pro, Max, Ultra, Team e Enterprise</li>
+        <li>A opção Code execution and file creation ligada (na tela nova de configurações ela se chama Create and edit files)</li>
+        <li>O arquivo de origem: o PDF da tabela, o documento do Word ou os dados do relatório</li>
+        <li>Arquivos de até 30 MB</li>
+        <li>Uma ideia clara do formato: quais colunas, quantos slides, quais seções</li>
+        </ul>
+      </div>
+      <article class="bloco" aria-labelledby="titulo-nao-mandar">
+        <p class="rotulo">Fica de fora</p>
+        <h3 class="h3" id="titulo-nao-mandar">Não mande</h3>
+        <ul class="checklist">
+        <li>Planilhas com CPF, salário ou dados de cliente que não precisam ir</li>
+        <li>Senhas e dados bancários</li>
+        <li>Arquivos de origem desconhecida: um arquivo pode trazer instrução escondida para o Claude</li>
+        <li>Pedido de &quot;só o texto&quot; quando você quer o arquivo</li>
+        </ul>
+        <p class="rotulo" style="margin-top:20px">O que as skills fazem</p>
+        <ul class="checklist">
+        <li>Excel: monta planilha .xlsx, por exemplo com os dados tirados de um PDF</li>
+        <li>PowerPoint: transforma um documento do Word em apresentação .pptx</li>
+        <li>Word: entrega o relatório em documento .docx</li>
+        <li>O arquivo sai na conversa, pronto para baixar</li>
+        <li>O Claude usa a skill sozinho quando o pedido combina; você não precisa chamar</li>
+        </ul>
+        <p class="rotulo" style="margin-top:20px">O que elas não fazem</p>
+        <ul class="checklist">
+        <li>Não confere os números por você</li>
+        <li>Não garante que a formatação saia igual à da sua empresa</li>
+        <li>Não trabalha com arquivo acima de 30 MB</li>
+        <li>Não funciona com a opção de criar arquivos desligada</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="secao" id="pedido" aria-labelledby="titulo-pedido">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Pedidos de exemplo</p>
+        <h2 class="h2" id="titulo-pedido">Copie, preencha <span class="s">e confira.</span></h2>
+        <p>Pedidos de exemplo escritos pelo escritório. Dois partem dos exemplos da central de ajuda (PDF para planilha e Word para apresentação). Não foram testados por nós. Troque o que está entre colchetes pelos seus dados. Também em <a href="../../arquivos/Skills para Criar Arquivos de Excel PowerPoint e Word - Pedidos de Exemplo - Agentes que Trabalham.txt" download>arquivo de texto editável</a>.</p>
+      </div>
+      <div class="pedido">
+        <div class="pedido__barra">
+          <span>pedido</span>
+          <button type="button" class="copiar" data-copiar="pedido-texto" data-aviso="aviso-copia">
+            <span class="ic" aria-hidden="true"><svg class="cp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg><svg class="ok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+            <span class="rotulo-copiar">Copiar pedidos</span>
+          </button>
+        </div>
+        <pre id="pedido-texto" tabindex="0" aria-label="Texto do pedido">Pedido 1 · Excel
+Extraia todos os itens deste PDF da tabela de preços de <mark>[fornecedor]</mark> para uma planilha do Excel, com as colunas <mark>[código, produto, unidade, preço]</mark>. Mantenha os valores exatamente como estão no PDF e marque as linhas que você não conseguiu ler.
+
+Pedido 2 · PowerPoint
+Transforme este documento do Word em uma apresentação de <mark>[8]</mark> slides para <mark>[reunião com a diretoria]</mark>. Um assunto por slide, frases curtas e os números do documento sem arredondar.
+
+Pedido 3 · Word
+Monte um relatório em Word sobre <mark>[assunto, ex.: vendas de outubro]</mark> com estas seções: <mark>[resumo, números do mês, pendências]</mark>. Use só os dados que eu colei abaixo e escreva <mark>[A CONFIRMAR]</mark> onde faltar informação.
+<mark>[cole aqui os dados]</mark></pre>
+      </div>
+      <p class="aviso-copia" id="aviso-copia" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="secao" id="como-usar" aria-labelledby="titulo-como">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Passo a passo</p>
+        <h2 class="h2" id="titulo-como">Como <span class="s">usar</span></h2>
+      </div>
+      <ol class="etapas">
+        <li><span class="num" aria-hidden="true">01</span><p>No Claude, vá em Settings &gt; Capabilities e veja se Code execution and file creation está ligado. Na tela nova de configurações, o nome é Create and edit files. Os nomes podem aparecer traduzidos.</p></li>
+        <li><span class="num" aria-hidden="true">02</span><p>Em Customize &gt; Skills, confira se as skills de Excel, Word, PowerPoint e PDF estão ligadas.</p></li>
+        <li><span class="num" aria-hidden="true">03</span><p>No plano Team, a opção vem ligada para a empresa. No Enterprise, o responsável pela conta confirma Code execution and file creation e Skills na aba Policy.</p></li>
+        <li><span class="num" aria-hidden="true">04</span><p>Numa conversa nova, anexe o arquivo de origem e cole um dos pedidos, trocando o que está entre colchetes. Peça o arquivo, não o texto.</p></li>
+        <li><span class="num" aria-hidden="true">05</span><p>Baixe o arquivo direto da conversa.</p></li>
+        <li><span class="num" aria-hidden="true">06</span><p>Abra o arquivo e confira os números com a fonte antes de mandar para alguém.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="secao" id="exemplo" aria-labelledby="titulo-exemplo">
+    <div class="wrap">
+      <div class="secao__cab">
+        <p class="rotulo">Exemplo</p>
+        <h2 class="h2" id="titulo-exemplo">O que conferir <span class="s">no resultado</span></h2>
+      </div>
+      <div class="exemplo">
+        <span class="selo-ex">Exemplo ilustrativo · não é saída de teste</span>
+        <blockquote class="entrada">Situação inventada para mostrar o formato: PDF com a tabela de preços de um fornecedor fictício, 40 itens.</blockquote>
+        <div class="tabela-rolagem" role="region" aria-labelledby="cap-exemplo" tabindex="0">
+          <table>
+            <caption id="cap-exemplo">Trechos do resultado, um por linha</caption>
+            <thead><tr><th scope="col">Parte</th><th scope="col">Exemplo</th><th scope="col">O que conferir</th></tr></thead>
+            <tbody>
+              <tr><td data-rotulo="Etapa"><span class="cls">Excel</span></td><td data-rotulo="Exemplo">tabela-precos-fornecedor.xlsx · 40 linhas · colunas código, produto, unidade e preço · 2 linhas marcadas como ilegíveis</td><td data-rotulo="O que conferir">Compare alguns preços com o PDF. Corrija à mão as linhas marcadas.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">PowerPoint</span></td><td data-rotulo="Exemplo">apresentacao-diretoria.pptx · 8 slides, um assunto por slide</td><td data-rotulo="O que conferir">Confira se nenhum número mudou do documento para o slide.</td></tr>
+              <tr><td data-rotulo="Etapa"><span class="cls">Word</span></td><td data-rotulo="Exemplo">relatorio-vendas-outubro.docx · 3 seções · 2 trechos com [A CONFIRMAR]</td><td data-rotulo="O que conferir">Preencha o que ficou [A CONFIRMAR] antes de enviar.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="alerta" style="margin-top:16px">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17.5v.01"/></svg>
+        <div>
+          <p><strong>Como foi testado.</strong> Não testado pelo escritório. Passos conferidos na central de ajuda do Claude e no repositório da Anthropic em 24/11/2026. Os arquivos do exemplo são inventados para mostrar o formato e não são saída real.</p>
+          <p style="margin-top:8px"><strong>Limite.</strong> A central de ajuda diz que skills e criação de arquivos estão nos planos Free, Pro, Max, Ultra, Team e Enterprise; o README do repositório no GitHub fala em planos pagos para as skills de exemplo, então confira na sua conta. Criar arquivos gasta mais do seu limite de uso que uma conversa normal. Arquivo de fora pode trazer instrução escondida: acompanhe o que o Claude faz.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao" id="checklist" aria-labelledby="titulo-checklist">
+    <div class="wrap duas">
+      <div>
+        <div class="secao__cab">
+          <p class="rotulo">Antes de usar</p>
+          <h2 class="h2" id="titulo-checklist">Checklist <span class="s">final</span></h2>
+          <p>As marcações ficam só nesta tela e somem ao recarregar.</p>
+        </div>
+        <div class="alerta">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 20h20L12 3z"/><path d="M12 10v4M12 17.5v.01"/></svg>
+          <p><strong>Abra o arquivo antes de mandar.</strong> O Claude pode errar um número ou uma linha. Confira com a fonte, ajuste e só depois envie.</p>
+        </div>
+      </div>
+      <ul class="checklist">
+        <li><label><input type="checkbox"> A opção de criar e editar arquivos está ligada?</label></li>
+        <li><label><input type="checkbox"> Você anexou o arquivo certo e tirou dados que não precisavam ir?</label></li>
+        <li><label><input type="checkbox"> Os números do arquivo batem com a fonte?</label></li>
+        <li><label><input type="checkbox"> As linhas ou trechos marcados para conferir foram resolvidos?</label></li>
+        <li><label><input type="checkbox"> Você abriu o arquivo baixado antes de mandar para alguém?</label></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="secao" id="proximo-passo" aria-labelledby="titulo-proximo">
+    <div class="wrap duas">
+      <article class="bloco" aria-labelledby="titulo-proximo">
+        <p class="rotulo">Próximo passo opcional</p>
+        <h2 class="h3" id="titulo-proximo">Kit 10 Agentes de IA para Pequenas Empresas</h2>
+        <p>As skills são da Anthropic e não têm relação com o Kit 10. O Kit é outra coisa: traz instruções prontas para tarefas do escritório, como passo a passo padrão (POP) e status semanal de projeto. São dez agentes em texto para colar no seu chat de IA. Este guia é gratuito e funciona sem a compra.</p>
+        <div class="preco"><strong>R$ 47</strong><span>pagamento único</span></div>
+        <a class="btn btn--sinal" href="../../produtos/kit-10-agentes/">
+          <span class="disco" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></span>
+          <span class="txt">Quero saber mais</span>
+        </a>
+      </article>
+      <ul class="ficha" aria-label="Sobre este material">
+        <li><span>material</span><span>SKL-OFFICE-001 · versão 1</span></li>
+        <li><span>autoria</span><span>Agentes que Trabalham</span></li>
+        <li><span>atualizado</span><span>24/11/2026</span></li>
+        <li><span>exemplo</span><span>ilustrativo, montado pelo escritório</span></li>
+        <li><span>arquivos</span><span>guia PDF · links oficiais · pedidos em texto editável</span></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape">
+  <div class="wrap">
+    <p><a href="../../#biblioteca">← Voltar à biblioteca</a></p>
+    <p><a href="https://www.instagram.com/agentesquetrabalham/" rel="noopener">@agentesquetrabalham no Instagram</a></p>
+  </div>
+</footer>
+
+<script src="../../assets/js/recurso.js" defer></script>
+</body>
+</html>

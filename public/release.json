@@ -66,6 +66,16 @@
       "sha256": "9391c14a22a01914cbc4de11fc37131410591a0588b2a80a93052c948fa45dce"
     },
     {
+      "path": "arquivos/Conectores Google Drive Gmail e Agenda no Claude - Agentes que Trabalham.pdf",
+      "bytes": 206902,
+      "sha256": "06d57b382ad0b45c3c089336980eee11e5b75cbbee83360b13c4a87cfb8edb31"
+    },
+    {
+      "path": "arquivos/Conectores Google Drive Gmail e Agenda no Claude - Pedidos de Exemplo - Agentes que Trabalham.txt",
+      "bytes": 3814,
+      "sha256": "6e2d642bca1371a189f992af089fc1d2a5e881d61587b9090764eca5151740ae"
+    },
+    {
       "path": "arquivos/Guia de Planilha de Funcionários sem Dados Sensíveis - Agentes que Trabalham - Pedido para Copiar.txt",
       "bytes": 1584,
       "sha256": "a36575a5a8bb42070c75f6c9c3b8db0064b1ca53098bded8462fa8c8308e6512"
@@ -76,9 +86,29 @@
       "sha256": "b2eed28f4b8b6395908335ae7e3a2c9ccf44148426a8588cc92fd11e651e7cf6"
     },
     {
+      "path": "arquivos/Plugin Finance - Anthropic.pdf",
+      "bytes": 218457,
+      "sha256": "604f9322b730fe741a0cc58b989455148738c0ed939687c0e22fa4e6b25104e5"
+    },
+    {
+      "path": "arquivos/Plugin Finance - Pedidos de Exemplo - Agentes que Trabalham.txt",
+      "bytes": 3644,
+      "sha256": "b0b0a3f43560833faaab4c79b3d5b674bb275dc4925a525f647fe65e25d4f114"
+    },
+    {
       "path": "arquivos/Skill Meeting Synthesis - Amplitude.pdf",
       "bytes": 250394,
       "sha256": "3fe9335b788886d51b37f37e578b5d0aa9db85135bca363a7a15b65c48b28bd4"
+    },
+    {
+      "path": "arquivos/Skills para Criar Arquivos de Excel PowerPoint e Word - Agentes que Trabalham.pdf",
+      "bytes": 267518,
+      "sha256": "01c44b1eb7b7348bd39db5dce16bf596df8d62d78e73b725791056790310f1fd"
+    },
+    {
+      "path": "arquivos/Skills para Criar Arquivos de Excel PowerPoint e Word - Pedidos de Exemplo - Agentes que Trabalham.txt",
+      "bytes": 3415,
+      "sha256": "b7fa8f160818729dbaa15da42accfb7736fe6fff4bdb5deb7e8b65be776bdf03"
     },
     {
       "path": "arquivos/Skills para Transformar Ideias em Posts - Agentes que Trabalham.pdf",
@@ -232,13 +262,13 @@
     },
     {
       "path": "data/recursos.json",
-      "bytes": 39897,
-      "sha256": "344e240952813a846b95258119860a00bad2de264d46ed6ce82542511fde61bf"
+      "bytes": 52450,
+      "sha256": "06003de6f8d99463c82d116267bc5370c05b17b4e9c50aaad5ad9cb469cce39c"
     },
     {
       "path": "index.html",
-      "bytes": 18381,
-      "sha256": "fd1d9fbf0766cde9828a9c412d56aa53e18144f8814d2bdf5075b64d5293c4ad"
+      "bytes": 22505,
+      "sha256": "64f13462d150152d0431ba94a5695c7082a0dcb864f7f7feb4005dcde20ccd09"
     },
     {
       "path": "LICENCAS.md",
@@ -261,6 +291,11 @@
       "sha256": "93c5dbefdac248e643d44db65ec850a6a5604b377e4daf4016fda93ddfe6d02b"
     },
     {
+      "path": "materiais/con-gws-001/index.html",
+      "bytes": 18752,
+      "sha256": "d06d061cbaa13011491470acc1ba1da2e81060c8563efcba1cb46b82e16be259"
+    },
+    {
       "path": "materiais/fin-001/index.html",
       "bytes": 17886,
       "sha256": "dde28648eea59c390bb30281fee6fac11ec89de16119747869f31f4ae1d82ac2"
@@ -281,6 +316,11 @@
       "sha256": "5f3f1fae13c24404d4be8ad3ab5374a36d5ee355c4860bc5d25a8d04ea858161"
     },
     {
+      "path": "materiais/plg-fin-001/index.html",
+      "bytes": 18517,
+      "sha256": "49fc97cb05d65a9291f5e4ff9772dabd07f3f844757d2d2b82ebe7f6d6c9fbbe"
+    },
+    {
       "path": "materiais/rh-001/index.html",
       "bytes": 18967,
       "sha256": "0b7fac194b4d02fec9aee657f9a4827c52f05b075e381c283613daf5408f8699"
@@ -289,6 +329,11 @@
       "path": "materiais/rh-002/index.html",
       "bytes": 16832,
       "sha256": "8d8cfc1530c7b34c9cd7dfc7cf01c3acb34e62e6f14205ea0f25f9fd00d2ee71"
+    },
+    {
+      "path": "materiais/skl-office-001/index.html",
+      "bytes": 18418,
+      "sha256": "a2fa4f6ce4ac1a752d07ef61dc8462cb23024e17365d7fb6bdec98e8518ffeb8"
     },
     {
       "path": "produtos/kit-10-agentes/index.html",
